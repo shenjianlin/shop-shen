@@ -1,0 +1,47 @@
+/* 后台页面(公共部分)设置 */
+#logo {
+    width: 180px;
+    height: 60px;
+    float: left;
+<<<<<<< .mine
+=======
+    
+    /*background: red;*/
+>>>>>>> .r32
+}
+#top-bgc{
+	background-color:#80b7b7;
+}
+#table{
+    width: 300px;
+    height: 80px;
+    float:left;
+}
+#table a:link{
+    color: black;
+}
+#table a:hover{
+    color: red;
+}
+/*主体 */
+.container-fluid{
+    height: 600px;
+}
+/* 左侧下拉菜单样式 */
+.libiao{
+    margin-left: 20px;
+    line-height: 20px;
+}
+.libiao a:link{
+    color: black;
+}
+.libiao a:hover{
+    color: red;
+}
+ul > li {
+    list-style-type: none;
+}
+#dropdown{
+    background-color: #91c2c2;
+    height: 625px;
+}

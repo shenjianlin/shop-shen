@@ -3,7 +3,7 @@ package com.shen.shop.model;
 import javax.persistence.*;
 
 @Table(name = "caregory")
-public class CaregoryDo {
+public class CaregoryDo extends BaseDo {
     /**
      * 商品ID
      */
