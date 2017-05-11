@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.shen.shop.mapper.NotifyLogDoMapper" >
+  <resultMap id="BaseResultMap" type="com.shen.shop.model.NotifyLogDo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="SN" property="sn" jdbcType="BIGINT" />
+    <result column="CMD_TYPE" property="cmdType" jdbcType="VARCHAR" />
+    <result column="TABLE_NAME" property="tableName" jdbcType="VARCHAR" />
+    <result column="PK_VALUES" property="pkValues" jdbcType="VARCHAR" />
+    <result column="WHERE_CONDITION" property="whereCondition" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,143 @@
+﻿@charset "utf-8";
+body{font-family:"微软雅黑"; background:#F6F6F6}
+/**style**/
+.ht-banner{ height:445px; overflow:hidden; width:100%; position:relative; }
+.ht-banner li{ height:445px;}
+.ht-banner li a{ display:block; line-height:445px; height:445px;}
+.ht-banner div{ position:absolute; bottom:15px; height:16px;text-align:center; width:200px; left:50%; margin-left:-100px; z-index:4}
+.ht-banner div a{ display: inline-block; background:#fff; width:16px; height:16px;  text-align:center ; margin:0 5px; border-radius:50%; opacity:0.5; filter:alpha(opacity=50); -moz-opacity:0.5;}
+.ht-banner div a.active{opacity:0.9; filter:alpha(opacity=90); -moz-opacity:0.9; background:#fff;}
+
+.ht-menu-wrap{ background:#ff5555;height:100px; position:relative; margin-bottom:15px; }
+.ht-menu-wrap .ht-menu{width:1200px; margin: 0 auto; position:absolute; top:0; left:50%; margin-left:-600px; z-index:88}
+.ht-menu-wrap .ht-menu li{width:120px; float:left; background:#ff5555;   border-radius:10px;transition:all .5s ease; }
+.ht-menu-wrap .ht-menu li:hover{ margin-top:-10px; padding-top:10px; background: #ff6666; }
+.ht-menu-wrap .ht-menu li p{ padding-left:35px;transition:all .3s ease; height:0; overflow:hidden; line-height:30px;}
+.ht-menu-wrap .ht-menu li:hover p{ height:auto;  padding-bottom:10px; padding-top:5px}
+.ht-menu-wrap .ht-menu li p a{ color:#fff; display:block; line-height:22px;}
+.ht-menu-wrap .ht-menu li span{ width:80px; height:80px;  line-height:80px; color:#666; font-size:15px; margin:10px auto; padding-left:0; display:block;transition:all .5s ease; position:relative;background:url(images/80x80-1.png) center center;}
+.ht-menu-wrap .ht-menu li span:hover{/*transform:rotate(360deg); -ms-transform:rotate(360deg);*/ color:#ff5555 !important}
+.ht-menu-wrap .ht-menu li span a{ position:absolute; z-index:2; color:#444; left:10px; top:10px}
+.ht-menu-wrap .ht-menu li span .ico{ width:30px; height:30px; background-image:url(images/mune_ico.png); background-repeat:no-repeat; position:absolute;left:25px; top:10px; z-index:2}
+.ht-menu-wrap .ht-menu li span .one{ background-position:0px 2px}
+.ht-menu-wrap .ht-menu li:hover .one{ background-position:0px -60px}
+.ht-menu-wrap .ht-menu li span .two{ background-position:-62px 2px}
+.ht-menu-wrap .ht-menu li:hover .two{ background-position:-62px -60px}
+.ht-menu-wrap .ht-menu li span .three{ background-position:-125px 2px}
+.ht-menu-wrap .ht-menu li:hover .three{ background-position:-125px -60px}
+.ht-menu-wrap .ht-menu li span .four{ background-position:-188px 2px}
+.ht-menu-wrap .ht-menu li:hover .four{ background-position:-188px -60px}
+.ht-menu-wrap .ht-menu li span .five{ background-position:-250px 2px}
+.ht-menu-wrap .ht-menu li:hover .five{ background-position:-250px -60px}
+.ht-menu-wrap .ht-menu li span .six{ background-position:-309px 2px}
+.ht-menu-wrap .ht-menu li:hover .six{ background-position:-309px -60px}
+.ht-menu-wrap .ht-menu li span .seven{ background-position:-363px 2px}
+.ht-menu-wrap .ht-menu li:hover .seven{ background-position:-363px -60px}
+.ht-menu-wrap .ht-menu li span .eight{ background-position:-415px 2px}
+.ht-menu-wrap .ht-menu li:hover .eight{ background-position:-415px -60px}
+.ht-menu-wrap .ht-menu li span .nine{ background-position:-470px 2px}
+.ht-menu-wrap .ht-menu li:hover .nine{ background-position:-470px -60px}
+.ht-menu-wrap .ht-menu li span .ten{ background-position:-524px 2px}
+.ht-menu-wrap .ht-menu li:hover .ten{ background-position:-524px -60px}
+
+.ht-menu-wrap .ht-menu li:hover span a{ text-decoration:none; color:#fff}
+.change{ position:absolute; top:-10px; left:-10px; -webkit-animation:change 2s linear infinite; background:url(images/80x80.png); width:100px; height:100px; display:none}
+.ht-menu-wrap .ht-menu li:hover .change{animation: change 3s linear infinite;-moz-animation: change 3s linear infinite;-ms-animation: change 3s linear infinite;-o-animation: change 3s linear infinite; -webkit-animation: change 3s linear infinite;display:block}
+@-moz-keyframes change {
+0% {
+	-moz-transform: rotateZ(0deg);
+    }
+100% {
+	-moz-transform: rotateZ(360deg);
+    }
+}
+@-o-keyframes change {
+0% {
+	-o-transform: rotateZ(0deg);
+    }
+100% {
+	-o-transform: rotateZ(360deg);
+    }
+}
+@-webkit-keyframes change {
+0% {
+	-webkit-transform: rotateZ(0deg);
+    }
+100% {
+	-webkit-transform: rotateZ(360deg);
+    }
+}
+@-ms-keyframes change {
+0% {
+	-ms-transform: rotateZ(0deg);
+    }
+100% {
+	-ms-transform: rotateZ(360deg);
+    }
+}
+@keyframes change {
+0% {
+	transform: rotateZ(0deg);
+    }
+100% {
+	transform: rotateZ(360deg);
+    }
+}
+
+
+.ht-main{ width:1200px; margin:0 auto; height:100%}
+.wrap{}
+.ht-main .title{ font-size:22px; color:#333; line-height:40px;}
+.ht-main .title span{ margin-left:15px;/* max-width:518px !important; overflow:hidden; float:right; height:30px;*/}
+.ht-main .title span.more{ float:right;}
+.ht-main .title span.more a{ font-size:14px; color:#333; font-style:normal}
+.ht-main .title span a{ font-size:14px; color:#666; margin-right:3px; line-height:30px;}
+.ht-main .content{ margin-bottom:20px; height:100%; overflow:hidden} 
+.ht-main .content li{ width:219px; border:1px solid #e6e6e6; margin-right:-1px; padding:10px;background:#fff; float:left; padding-bottom:5px; position:relative}
+.ht-main .content li img{ text-align:center; margin:0 auto; width:220px; height:220px; margin-bottom:3px;transition:All 0.4s ease-in-out;}
+.ht-main .content li img:hover{transform:scale(1.03);-webkit-transform:-moz-transform:scale(1.03);-o-transform:scale(1.03);-ms-transform:scale(1.03);}
+.ht-main .content li p{ color:#ff3333; margin-bottom:5px; height:20px; overflow:hidden; line-height:20px;}
+.ht-main .content li p.bt{ height:40px; overflow:hidden}
+.ht-main .content li p.bt a{ font-size:14px; color:#444; line-height:20px;}
+.ht-main .content li p.bt a:hover{ color:#666; text-decoration:none}
+.ht-main .content li p.sale{ font-size:14px; color:#D2264C}
+.ht-main .content li p.sale span{ color:#333; font-size:12px;}
+.ht-main li i{ position:absolute; left:10px; top:0px; width:32px; height:39px; background-repeat:no-repeat}
+.ht-main li i.offer{background:url(images/tejia.png) ;}
+.ht-main li i.new{background:url(images/xinpin.png) ;}
+
+.four{ width:595px;}
+.float-l{ float:left}
+.float-r{ float:right}
+.contents{ height:390px; overflow:hidden; background:#fff; margin-bottom:20px;}
+.contents li{ width:167px; border-left:1px solid #e6e6e6; position:relative; margin-left:-1px; height:185px; float:left; text-align:center; padding-top:8px; overflow:hidden; position:relative}
+.contents li p{ height:20px; line-height:20px; overflow:hidden; text-align:left; padding:0 10px; color:#D2264C}
+.contents li p a{ color:#444}
+.contents li:hover a{ color:#666}
+.contents li p em{ color:#666; text-decoration:line-through; font-style:normal}
+.contents li.gg260x390{ width:260px; height:390px; margin-left:0px; border:0px solid #000; padding:0px;}
+/*.contents li img{ transition:all .2s ease-in}*/
+.contents li img:hover{opacity:0.8; filter:alpha(opacity=80)}
+.contents li.gg260x390 img:hover{opacity:1; filter:alpha(opacity=100)}
+
+
+.floors{ background:#fff; height:100%; overflow:hidden; padding-bottom:1px; margin-bottom:15px;}
+
+.floors li{ width:223px; height:227px; float:left; border:1px solid #e6e6e6; margin-left:-1px; margin-bottom:-1px; text-align:center; padding:10px 0 0 0; position:relative}
+.floors li:first-child{ width:400px; height:475px; margin-left:0px; padding:0}
+.floors li:first-child img{ left:0; margin:0; top:0}
+.floors li.w350{ width:349px;}
+
+
+.floors li p{ line-height:20px; overflow:hidden; text-align:left; padding:0 10px; height:20px; text-align:left; overflow:hidden}
+.floors li p:first-child{ margin-top:10px;}
+.floors li p a{ color:#333; font-size:16px; line-height:20px;}
+.floors li:hover a{ color:#666}
+.floors li:hover a:hover{ text-decoration:none}
+.floors li p.fu{ color:#999; line-height:18px; font-size:12px;}
+.floors li p.sale{font-size:16px; color:#D2264C; line-height:25px; }
+.floors li p.sale em{font-style:normal; font-size:12px;}
+.floors li img{ position:absolute; left:50%; margin-left:-70px; bottom:10px/*;transition:all .2s ease-in*/}
+.floors li img:hover{opacity:0.8; filter:alpha(opacity=80)}
+.floors li.w350 img{ margin-left:20px; right:10px !important;}
+.floors li:first-child img:hover{opacity:1; filter:alpha(opacity=100)}

@@ -1,0 +1,161 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{ background:#f5f5f5 !important}
+
+.frbanner{height:700px; background:url(${path}/resources/front/images/banner.png) center top no-repeat; margin-bottom:40px}
+
+
+.eight{ width:1200px; margin:0 auto; display:none}
+.eight ul{ position:relative; height:630px;width:1200px; margin-bottom:20px }
+.eight ul li{background: #0C9; position:absolute}
+.eight ul li.ggf1{ left:0px; top:0px;width:335px; height:370px;}
+.eight ul li.ggf2{left:345px; top:0px; width:255px; height:255px;}
+.eight ul li.ggf3{left:610px; top:0px; width:255px; height:200px;}
+.eight ul li.ggf4{left:875px; top:0px;width:325px; height:200px;}
+
+.eight ul li.ggf5{ left:0px; top:380px;width:335px; height:250px;}
+.eight ul li.ggf6{left:345px; top:265px; width:255px; height:365px;}
+.eight ul li.ggf7{left:610px; top:210px; width:255px; height:420px;}
+.eight ul li.ggf8{left:875px; top:210px;width:325px; height:280px;}
+.eight ul li.ggf9{left:875px; top:500px;width:325px; height:130px; background:none}
+.eight ul li.ggf9 span{ height:40px; background:#4CA048; padding:10px; display:block; text-align:center}
+.eight ul li.ggf9 span:first-child{ margin-bottom:10px;}
+.eight ul li.ggf9 span a{ display:block;  line-height:40px; border:1px dotted #fff; font-size:22px; color:#fff; letter-spacing:2px; transition:all .3s ease}
+.eight ul li.ggf9 span a em{ font-size:14px; font-family: "Times New Roman"; font-style:normal}
+
+
+.eight ul li.ggf9 span a:hover{ text-decoration:none; background:#FFF; color:#4CA048}
+
+
+
+
+
+
+
+
+.frmain{ width:1200px; margin:0 auto; height:100%;}
+.frcai .frcai-left{ width:960px; float:left; height:100%;}
+.frcai .frcai-left li{ height:305px;padding:10px; box-shadow:1px 1px 3px 1px #ddd; margin-bottom:20px;  transition:all .2s ease; background:url(${path}/resources/front/images/listbg.png) no-repeat left bottom #fff; position:relative}
+.frcai .frcai-left li img{ width:305px; height:305px; transition:all .3s ease .1s;outline:0px solid #ddd; outline-offset:0px;}
+/*.frcai .frcai-left li img:hover{ outline:1px solid #f5f5f5; outline-offset:-10px;}*/
+.frcai .frcai-left li pre{ position:absolute; left:-7px; top:-19px; width:105px; height:107px; background:url(${path}/resources/front/images/taocan.png)}
+.frcai .frcai-left li:hover{box-shadow:2px 2px 4px 1px #ccc; }
+.frcai .frcai-left li:hover .caititle a{ color:#000}
+.frcai .frcai-left li span{ float:right; width:405px; position:relative; height:305px;}
+.frcai .frcai-left li span:first-child{ float:left; width:305px; margin-left:215px; position:relative}
+/*.frcai .frcai-left li span i.xian{ position:absolute; right:10px; top:0px; width:49px; height:59px; background:url(${path}/resources/front/images/tao.png)}*/
+.frcai-left li span p{ width:100%}
+.frcai-left li span p.caititle{ border-bottom:1px dashed #ccc; padding:10px 0}
+.frcai-left li span p.caititle a{ font-size:18px; color:#333}
+.frcai-left li span p.caistitle{ font-size:14px; color:#333; padding:10px 0}
+.frcai-left li span p.caicontent{ color:#777; line-height:180%}
+
+.frcai-left li span p.caisalebuy{ position:absolute; left:0; bottom:30px;}
+.frcai-left li span p.caisalebuy i{ float:right; width:120px; height:35px;  line-height:35px;border-radius:5px; text-align:center; font-size:18px; background:#ddd; color:#999}
+.frcai-left li span p.caisalebuy{ color:#d20000; font-size:35px; line-height:35px;}
+.frcai-left li span p.caisalebuy em{ font-style:normal; font-size:13px;}
+.frcai-left li span p.caisalebuy i a{ display:block; background:#46BF2E;border-radius:5px; color:#fff}
+.frcai-left li span p.caisalebuy i a:hover{ background:#42AE2B; text-decoration:none}
+.frcai-left li span p.cainumber{ position:absolute; left:0; bottom:5px;}
+.frcai-left li span p.cainumber i{ float:right; color:#999}
+.frcai-left li span p.cainumber i:first-child{ float:left; color:#3D8A39; background:url(${path}/resources/front/images/newfresh1_ico.png) no-repeat  -299px -781px; padding-left:20px;}
+.frcai-left li span p.cainumber i em{ font-style:normal;color:#3D8A39; font-size:18px;}
+.frcai .frcai-right{width:225px; float:right;background:#fff}
+.title-list{ border-top:2px solid #4B9F47; height:53px;}
+.title-list a{ width:53px; height:53px; display:block; line-height:53px; text-align:center; text-indent:-999em; background-image: url(${path}/resources/front/images/gg_menu.png); background-repeat:no-repeat; float:left ; margin:10px;}
+.title-list .title1{ background-position:0 0}
+.title-list .title2{ background-position:-72px 0}
+.title-list .title3{background-position:-144px 0}
+.title-list .title1:hover{background-position:0px -67px}
+.title-list .title2:hover{background-position:-72px -67px}
+.title-list .title3:hover{background-position:-144px -67px}
+.content-show{ padding:10px; color:#acacac; line-height:180%; width:205px;}
+.content-show h2{border-bottom:1px solid #ddd; padding:10px 0; text-align:center; margin:10px 0; font-size:24px; color:#4B9F47; font-weight:normal}
+.content-show h2 small{ display:block; margin-top:10px;font-size:12px; color:#333; font-weight:normal}
+.content-show span{ display:none}
+.content-show .current{ display:block}
+
+
+
+.leibie,.leibie1{ width:1200px; margin:0 auto;}
+.leibie li{ float:left; width:150px;height:60px; text-align:center;padding-left:49px; border-left:1px solid #f5f5f5;
+}
+.leibie li:first-child{padding-left:50px; border-left:0px solid #57851B; }
+.leibie li a{ display:block;  line-height:60px; color:#fff; font-size:16px}
+.leibie li a:hover{ text-decoration:none}
+
+.leibie li.shu{ background:url(${path}/resources/front/images/menu_nav.png) no-repeat 10px 5px #4CA048;}
+.leibie li.shu:hover{ background:url(${path}/resources/front/images/menu_nav.png) no-repeat -306px 5px #74A731;}
+.leibie li.shu:hover a{ color:#57851B}
+.leibie li.rou{ background:url(${path}/resources/front/images/menu_nav.png) no-repeat 10px -122px #4CA048;}
+.leibie li.rou:hover{ background:url(${path}/resources/front/images/menu_nav.png) no-repeat -306px -122px #EA4D54;}
+.leibie li.rou:hover a{color:#AD181E}
+.leibie li.dan{ background:url(${path}/resources/front/images/menu_nav.png) no-repeat 10px -247px #4CA048;}
+.leibie li.dan:hover{ background:url(${path}/resources/front/images/menu_nav.png) no-repeat -306px -247px #C19537;}
+.leibie li.dan:hover a{color:#9D7318}
+.leibie li.shui{ background:url(${path}/resources/front/images/menu_nav.png) no-repeat 10px -374px #4CA048;}
+.leibie li.shui:hover{ background:url(${path}/resources/front/images/menu_nav.png) no-repeat -306px -374px #2C7CAD;}
+.leibie li.shui:hover a{color:#135379}
+.leibie li.dou{ background:url(${path}/resources/front/images/menu_nav.png) no-repeat 6px -501px #4CA048;}
+.leibie li.dou:hover{ background:url(${path}/resources/front/images/menu_nav.png) no-repeat -310px -501px #D96D00;}
+.leibie li.dou:hover a{color:#A85400}
+.leibie li.shi{ background:url(${path}/resources/front/images/menu_nav.png) no-repeat 10px -634px #4CA048;}
+.leibie li.shi:hover{ background:url(${path}/resources/front/images/menu_nav.png) no-repeat -306px -634px #604800;}
+.leibie li.shi:hover a{color:#886600}
+
+
+
+
+.leibie1 li{ width:179px; height:210px; float:left; margin-right:1px; background:#fff;text-align:center; padding:10px;transition:all .3s ease}
+
+.leibie1 li.shu:hover{background:#74A731}
+.leibie1 li.shu:hover a{ color:#57851B}
+.leibie1 li.rou:hover{background:#EA4D54}
+.leibie1 li.rou:hover a{color:#AD181E}
+.leibie1 li.dan:hover{background:#C19537}
+.leibie1 li.dan:hover a{color:#9D7318}
+.leibie1 li.shui:hover{background:#2C7CAD}
+.leibie1 li.shui:hover a{color:#135379}
+.leibie1 li.dou:hover{background:#D96D00}
+.leibie1 li.dou:hover a{color:#A85400}
+.leibie1 li.shi:hover{background:#886600}
+.leibie1 li.shi:hover a{color:#664C00}
+
+.leibie1 li img{ margin:10px auto 0 auto; transition:all .3s ease .1s; border-radius:50%;}
+.leibie1 li:hover img{
+  -moz-transform:scaleX(-1);
+    -webkit-transform:scaleX(-1);
+    -o-transform:scaleX(-1);
+    transform:scaleX(-1);
+	filter:FlipH;}
+.leibie1 li a{ font-size:18px; line-height:40px; color:#333; display:block}
+.leibie1 li a:hover{ text-decoration:none}
+
+
+.fr-list-title{ display:block; line-height:56px; padding-left:30px;     font-size:20px; color:#333; margin:20px 0 0px 0;background:url(${path}/resources/front/images/titlebj.png) no-repeat 0px 0px; color:#fff/*border-bottom:2px solid #333*/}
+
+.fr-list-title a{ float:right}
+.fr-list{ width:1220px; margin-left:-10px; padding-top:10px;}
+.fr-list ul{height:100%; overflow:hidden;}
+.fr-list li{ width:224px; height:300px; float:left; background:#fff; box-shadow:1px 1px 3px 1px #ddd; margin:10px; transition:all .2s ease; position:relative; overflow:hidden}
+.fr-list li img{ width:200px; height:200px; margin:12px;}
+.fr-list li:hover{box-shadow:2px 2px 4px 1px #ccc; }
+.fr-list li p{ margin:0 10px; line-height:25px; height:25px; overflow:hidden;margin-top:5px}
+.fr-list li p.frtitle a{ font-size:14px; color:#333}
+.fr-list li p.frsale{ font-size:14px; color:#d20000}
+.fr-list li p.frsale i{ font-size:12px; color:#999; margin-left:5px; text-decoration:line-through}
+.fr-list li p.frbuy{ position:absolute; right:-100px; bottom:13px; width:80px; height:28px !important; line-height:28px; color:#999; background:#ccc; border-radius:2px; text-align:center; font-size:14px; opacity:0;transition:all .3s ease; }
+.fr-list li:hover p.frbuy{ opacity:1;right:0px;}
+.fr-list li p.frbuy a{ display:block; color:#fff; background:#46BF2E}
+.fr-list li p.frbuy a:hover{ text-decoration:none;  background:#42AE2B}
+.fr-list li i.te{ position:absolute; left:5px; top:0px; width:49px; height:59px; background:url(${path}/resources/front/images/te.png)}
+
+.fr-list li p.nofrbuy{ position:absolute;background:url(${path}/resources/front/images/no.png); width:265px; height:230px; top:-5px; left:-10px}
+.frtips{background:url(${path}/resources/front/images/tips.png); width:790px; height:240px; margin:0 auto; margin-bottom:20px; font-size:16px; padding-left:410px; padding-top:80px; }
+.frtips p{ margin-bottom:10px;}
+.frtips p:first-child{ font-size:30px; color:#4C9F46; line-height:40px;}
+.frtips p i{ color:#C00; margin-right:5px;}
+.frtips a{ width:120px; height:30px; line-height:30px; color:#fff; background:#096; padding:2px 5px; font-size:14px; margin-right:10px; }
+.frtips a:hover{ color:#fff; background: #063; text-decoration:none}
+
+#gg-wrap{background-color:#fff;}

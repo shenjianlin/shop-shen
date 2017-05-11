@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.shen.shop.mapper.NormsDoMapper" >
+  <resultMap id="BaseResultMap" type="com.shen.shop.model.NormsDo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="NOTMS_ID" property="notmsId" jdbcType="BIGINT" />
+    <result column="COLOR" property="color" jdbcType="TINYINT" />
+    <result column="SIZE" property="size" jdbcType="TINYINT" />
+    <result column="COPYS" property="copys" jdbcType="TINYINT" />
+    <result column="EQUIV" property="equiv" jdbcType="TINYINT" />
+    <result column="SERVICE" property="service" jdbcType="TINYINT" />
+  </resultMap>
+</mapper>

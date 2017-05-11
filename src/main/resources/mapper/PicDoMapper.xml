@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.shen.shop.mapper.PicDoMapper" >
+  <resultMap id="BaseResultMap" type="com.shen.shop.model.PicDo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="PIC_ID" property="picId" jdbcType="BIGINT" />
+    <result column="PIC_NAME" property="picName" jdbcType="VARCHAR" />
+    <result column="PIC_STATUS" property="picStatus" jdbcType="TINYINT" />
+  </resultMap>
+</mapper>

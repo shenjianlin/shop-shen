@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.shen.shop.mapper.OrderInfoDoMapper" >
+  <resultMap id="BaseResultMap" type="com.shen.shop.model.OrderInfoDo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ORDER_INFO_ID" property="orderInfoId" jdbcType="BIGINT" />
+    <result column="USER_ID" property="userId" jdbcType="BIGINT" />
+    <result column="ORDERS_ID" property="ordersId" jdbcType="BIGINT" />
+    <result column="OINAME" property="oiname" jdbcType="VARCHAR" />
+    <result column="PIC" property="pic" jdbcType="DOUBLE" />
+    <result column="GOODS_ID" property="goodsId" jdbcType="BIGINT" />
+    <result column="NUM" property="num" jdbcType="TINYINT" />
+  </resultMap>
+</mapper>

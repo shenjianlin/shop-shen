@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.shen.shop.mapper.GoodsDoMapper" >
+  <resultMap id="BaseResultMap" type="com.shen.shop.model.GoodsDo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="GOODS_ID" property="goodsId" jdbcType="BIGINT" />
+    <result column="GNAME" property="gname" jdbcType="VARCHAR" />
+    <result column="CAREGORY_ID" property="caregoryId" jdbcType="BIGINT" />
+    <result column="PRICE" property="price" jdbcType="DOUBLE" />
+    <result column="OLDPRICE" property="oldprice" jdbcType="DOUBLE" />
+    <result column="STORE" property="store" jdbcType="BIGINT" />
+    <result column="STATUS" property="status" jdbcType="TINYINT" />
+    <result column="DESCR" property="descr" jdbcType="VARCHAR" />
+    <result column="NUM" property="num" jdbcType="BIGINT" />
+    <result column="CLICKNUM" property="clicknum" jdbcType="BIGINT" />
+    <result column="COMPANG" property="compang" jdbcType="VARCHAR" />
+    <result column="PICNAME" property="picname" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <properties resource="generatorConfig.properties"/>
+
+    <context id="Mysql" targetRuntime="MyBatis3Simple" defaultModelType="flat">
+        <property name="beginningDelimiter" value="`"/>
+        <property name="endingDelimiter" value="`"/>
+        <property name="javaFileEncoding" value="UTF-8"/>
+        <plugin type="${mapper.plugin}">
+            <property name="mappers" value="${mapper.Mapper}"/>
+        </plugin>
+
+        <jdbcConnection driverClass="${jdbc.driverClass}"
+                        connectionURL="${jdbc.url}"
+                        userId="${jdbc.user}"
+                        password="${jdbc.password}">
+        </jdbcConnection>
+
+
+        <!-- 生成model java文件的 -->
+        <!--${basedir}/src/main/java  com.fengze.shop.model  -->
+        <javaModelGenerator targetPackage="${targetModelPackage}" targetProject="${targetJavaProject}"/>
+
+        <sqlMapGenerator targetPackage="${targetXMLPackage}" targetProject="${targetResourcesProject}"/>
+
+        <javaClientGenerator targetPackage="${targetMapperPackage}" targetProject="${targetJavaProject}" type="XMLMAPPER"/>
+
+        <!--<table tableName="%">-->
+            <!--<generatedKey column="id" sqlStatement="Mysql" identity="true"/>-->
+        <!--</table>-->
+
+        <table tableName="USER" domainObjectName="UserDo">
+            <generatedKey column="USER_ID" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="ADMINS" domainObjectName="AdminsDo">
+            <generatedKey column="ADMINS_ID" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="ORDERS" domainObjectName="OrdersDo">
+            <generatedKey column="PRO_ID" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="ORDER_INFO" domainObjectName="OrderInfoDo">
+            <generatedKey column="ORDER_INFO_ID" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="CAREGORY" domainObjectName="CaregoryDo">
+            <generatedKey column="CAREGORY_ID" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="GOODS" domainObjectName="GoodsDo">
+            <generatedKey column="GOODS_ID" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="IMG" domainObjectName="ImgDo">
+            <generatedKey column="IMG_ID" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="COMMMENT" domainObjectName="CommentDo">
+            <generatedKey column=" COMMMENT_ID" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="NORMS" domainObjectName="NormsDo">
+            <generatedKey column="NOTMS_ID" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="PIC" domainObjectName="PicDo">
+            <generatedKey column="PIC_ID" sqlStatement="Mysql" identity="true"/>
+        </table>
+        <table tableName="NOTIFY_LOG" domainObjectName="NotifyLogDo">
+            <generatedKey column="SN" sqlStatement="Mysql" identity="true"/>
+        </table>
+    </context>
+</generatorConfiguration>

@@ -1,0 +1,77 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/* ** */
+.ev_man{background:#FFAE00;height:100%; width:100%; overflow:hidden; padding-bottom:30px;}
+
+
+.feiji{-webkit-animation:feiji 1.5s linear infinite backwards;	
+  animation: feiji 1.5s linear infinite backwards;
+  -moz-animation: feiji 1.5s linear infinite backwards;
+  -ms-animation: feiji 1.5s linear infinite backwards;
+  -o-animation: feiji 1.5s linear infinite backwards; 
+  }
+@keyframes feiji{
+   0%{top:20px}
+   50%{top:10px}
+   100%{top:20px}
+}
+ @-webkit-keyframes feiji{
+   0%{top:20px}
+   50%{top:10px}
+   100%{top:20px}
+ }
+
+
+
+.movetop{-webkit-animation:movetop 0.5s linear both;	
+  animation: movetop 0.5s linear both;
+  -moz-animation: movetop 0.5s linear both;
+  -ms-animation: movetop 0.5s linear both;
+  -o-animation: movetop 0.5s linear both;
+  }
+@-webkit-keyframes movetop{
+	0%{opacity:0;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}
+	100%{opacity:1;-webkit-transform:none;transform:none}}
+@keyframes movetop{
+	0%{opacity:0;-webkit-transform:translate3d(0,100%,0);-ms-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}
+	100%{opacity:1;-webkit-transform:none;-ms-transform:none;transform:none}
+	}
+
+
+.banner{ background:url(${path}/resources/front/images/banner.png) center top no-repeat; height:449px; text-align:center; position:relative}
+
+.banner img{ position:absolute; left:50%; margin-left:-435px; }
+.title{ background:#FF9900; height:117px; text-align:center; padding-top:30px; margin-bottom:50px}
+
+
+.pro-box{ width:1172px; margin:0 auto; height:auto; padding:0px 0 50px 0px;border-left:3px solid #fff; position:relative; }
+
+.pro-right{width:1080px;background:url(${path}/resources/front/images/bj.png) right top repeat-y;height: auto; padding:0 0 10px 92px; margin-right:0; margin-top:0px;}
+
+.shuzi span{ position:absolute; text-align:center; width:60px; line-height:60px; display:block; background:#60CFE8; color:#fff; left:-32px; top:0px; border-radius:50%; font-size:30px; font-weight:bold}
+.shuzi span.first{  background:#fff; color:#FFAE00; top:0px;}
+
+.pro-right .pro-right-bt{ position:relative; }
+.pro-right-bt span{ position:absolute; top:0px; height:72px; color:#fff; font-weight:bold; line-height:82px;}
+.pro-right-bt span.date{ left:-46px; background:url(${path}/resources/front/images/date.png) left -14px no-repeat; width:198px; padding-left:105px; font-size:40px;  font-family: "Times New Roman", Times, serif;height:72px; line-height:72px; }
+.pro-right-bt span.show{left:293px;  top:-10px;background:url(${path}/resources/front/images/show.png) left top no-repeat;width:377px; font-size:50px; text-align:center;height:82px; }
+.pro-right-bt span.time{left:733px; top:-10px; background:url(${path}/resources/front/images/time.png) left top no-repeat;width:300px;font-size:35px; padding-left:48px;height:82px;}
+.pro-right-bt span.time i{ background:#000}
+.pro-right-content { padding-top:80px; padding-left:0px; height:auto; overflow:hidden}
+.pro-right-content li{ height:456px; width:330px; float:left; background:url(${path}/resources/front/images/libj.png) left bottom no-repeat #E9273A; margin:10px 15px;}
+.pro-right-content li div{ position:relative; padding:55px 10px 0 10px;}
+.pro-right-content li div p{ text-align:center}
+.pro-right-content li div p.titlebt{ height:30px; overflow:hidden}
+.pro-right-content li div p.titlebt a{ font-size:18px; color:#fff; line-height:30px;}
+.pro-right-content li:hover .titlebt a{ color:#FC0}
+.pro-right-content li div p.sale{ font-size:24px; line-height:30px; color:#FAFF05}
+.pro-right-content li div p.sale i{ text-decoration:line-through; font-size:16px; color:#ddd}
+.pro-right-content li div p.sale b{ margin-left:20px; font-size:16px; color:#fff; font-weight:normal}
+.pro-right-content li div p.buy{ position:absolute; left:50%; margin-left:-46px; top:-46px; width:93px; height:93px; border-radius:50%; background:#ccc; color:#000; text-align:center; line-height:93px; font-size:28px;}
+.pro-right-content li div p.buy a{ color:#000; display:block; background:#FAFF05;border-radius:50%;}
+.pro-right-content li div p.buy a:hover{ text-decoration:none; background: #FF6}
+
+.pro-right-content li div p.wan{ position:absolute; left:50%; margin-left:-100px; top:-275px; width:200px; height:200px; background:url(${path}/resources/front/images/wan.png);}
+.pro-right-content li div p.number{ position:absolute; left:50%; margin-left:-50px; top:17px; color:#000;width:100px; text-align:center}
+
+.footer{ margin-top:0px !important;*margin-top:0px;_margin-top:0px}
