@@ -32,14 +32,14 @@ public abstract class BaseServiceImpl<T extends BaseDo> implements BaseService<T
     @Autowired(required = false)
     private MyMapper<T> mapper;
 
-    private Class<T> entityClass;
+   /* private Class<T> entityClass;*/
 
-    public BaseServiceImpl() {
+  /*  public BaseServiceImpl() {
         Type genType = getClass().getGenericSuperclass();
         Type[] params = ((ParameterizedType) genType).getActualTypeArguments();
         entityClass = (Class) params[0];
     }
-
+*/
     @Override
     public T selectByPrimaryKey(Object key) {
         return mapper.selectByPrimaryKey(key);
@@ -47,7 +47,7 @@ public abstract class BaseServiceImpl<T extends BaseDo> implements BaseService<T
 
     @Override
     public List<T> select(T t) {
-        String redisKey = "shop-menu-pid:" + t.getRedisKeyId();
+    /*    String redisKey = "shop-menu-pid:" + t.getRedisKeyId();
 
         List<T> ls = JSON.parseArray(cacheUtils.get(redisKey), entityClass);
 
@@ -57,7 +57,9 @@ public abstract class BaseServiceImpl<T extends BaseDo> implements BaseService<T
             ls = mapper.select(t);
             cacheUtils.put(redisKey, ls);
             return ls;
-        }
+        }*/
+
+        return mapper.select(t);
     }
 
     @Override

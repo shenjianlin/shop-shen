@@ -11,4 +11,11 @@
     <result column="IMG" property="img" jdbcType="VARCHAR" />
     <result column="CID" property="cid" jdbcType="BIGINT" />
   </resultMap>
+  
+  <select id="queryLeafNode" resultType="Long">
+        SELECT   C.CAREGORY_ID FROM CAREGORY C WHERE NOT EXISTS
+         (SELECT * FROM CAREGORY C1, CAREGORY C2 WHERE C1.CAREGORY_ID = C2.CID
+         AND C1.CID=C.CID)
+  </select>
+  
 </mapper>

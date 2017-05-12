@@ -3,25 +3,18 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/images" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/milk01_files" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/resources/back" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/resources/front/css" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/resources/front/css/base.css" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/resources/front/css/base.css" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/resources/front/css/css.css" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/resources/front/css/dcss.css" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/resources/front/css/default.css" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/resources/front/css/default.css" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/resources/front/css/easyui.css" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/resources/front/css/easyui.css" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/resources/front/css/ibase.css" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/resources/front/css/icss.css" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/resources/front/css/ijiathis_share.css" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/resources/front/css/jiathis_share.css" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/resources/front/css/jiathis_share.css" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/resources/front/css/jquery-ui-1.10.4.css" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/resources/front/css/product.css" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/resources/front/css/product.css" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/resources/front/css/sbase.css" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/resources/front/css/scss.css" charset="GBK" />

@@ -1,7 +1,10 @@
 package com.shen.shop.model;
 
-import javax.persistence.*;
+import com.thoughtworks.xstream.annotations.XStreamAlias;
+import lombok.Data;
 
+import javax.persistence.*;
+@Data
 @Table(name = "caregory")
 public class CaregoryDo extends BaseDo {
     /**
