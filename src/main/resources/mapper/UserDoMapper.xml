@@ -20,4 +20,8 @@
     <result column="UPDATE_BY" property="updateBy" jdbcType="BIGINT" />
     <result column="UPDATE_DATE" property="updateDate" jdbcType="TIMESTAMP" />
   </resultMap>
+
+  <insert id="addUser" parameterType="java.util.List">
+    INSERT INTO USER(USER_NAME,PASSWORD,SEX,ADDERSS,EMAIL,STATUS,REALNAME) VALUES(?,?,?,?,?,?,?)
+  </insert>
 </mapper>

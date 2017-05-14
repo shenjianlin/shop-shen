@@ -28,6 +28,12 @@ public class CaregoryDo extends BaseDo {
     private String cname;
 
     /**
+     * 菜单URL
+     */
+    @Column(name = "MENU_URI")
+    private String menuUri;
+
+    /**
      * 商品分类图片
      */
     @Column(name = "IMG")
@@ -91,6 +97,24 @@ public class CaregoryDo extends BaseDo {
      */
     public void setCname(String cname) {
         this.cname = cname;
+    }
+
+    /**
+     * 获取菜单URL
+     *
+     * @return MENU_URI - 菜单URL
+     */
+    public String getMenuUri() {
+        return menuUri;
+    }
+
+    /**
+     * 设置菜单URL
+     *
+     * @param menuUri 菜单URL
+     */
+    public void setMenuUri(String menuUri) {
+        this.menuUri = menuUri;
     }
 
     /**

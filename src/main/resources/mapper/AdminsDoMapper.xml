@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.shen.shop.mapper.AdminsDoMapper" >
+  <resultMap id="BaseResultMap" type="com.shen.shop.model.AdminsDo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ADMINS_ID" property="adminsId" jdbcType="BIGINT" />
+    <result column="ADMINS_NAME" property="adminsName" jdbcType="VARCHAR" />
+    <result column="ADMINS_PASSWORD" property="adminsPassword" jdbcType="VARCHAR" />
+    <result column="STATUS" property="status" jdbcType="BIT" />
+  </resultMap>
+</mapper>
