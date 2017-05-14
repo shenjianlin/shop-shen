@@ -34,23 +34,23 @@ public class UserController{
     @Autowired
     private UserService userService;
 
-   @GetMapping(value = "/all")
+    @GetMapping(value = "/all")
     public String fileUpload2(HttpServletRequest request,HttpServletResponse response) throws IOException {
 
         UserDo userDo=new UserDo();
-       if(!request.getParameter("uname").equals("")&&!request.getParameter("pwd").equals("")&&request.getParameter("pwd").equals(request.getParameter("pwd2"))) {
-           userDo.setUserName(request.getParameter("uname"));
-           userDo.setPassword(request.getParameter("pwd"));
-           userDo.setSex(Boolean.parseBoolean(request.getParameter("f")));
-           userDo.setAdderss(request.getParameter("address"));
-           userDo.setEmail(request.getParameter("email"));
-           userDo.setStatus(Boolean.parseBoolean(request.getParameter("status")));
-           userDo.setRealname(request.getParameter("uname"));
-           userService.addUser(userDo);
-           return  "redirect:/resources/back/html/index.jsp";
-       }else{
-           return "redirect:/resources/back/html/user_add.jsp";
-       }
+        if(!request.getParameter("uname").equals("")&&!request.getParameter("pwd").equals("")&&request.getParameter("pwd").equals(request.getParameter("pwd2"))) {
+            userDo.setUserName(request.getParameter("uname"));
+            userDo.setPassword(request.getParameter("pwd"));
+            userDo.setSex(Boolean.parseBoolean(request.getParameter("f")));
+            userDo.setAdderss(request.getParameter("address"));
+            userDo.setEmail(request.getParameter("email"));
+            userDo.setStatus(Boolean.parseBoolean(request.getParameter("status")));
+            userDo.setRealname(request.getParameter("uname"));
+            userService.addUser(userDo);
+            return  "redirect:/resources/back/html/index.jsp";
+        }else{
+            return "redirect:/resources/back/html/user_add.jsp";
+        }
     }
     @GetMapping(value = "/list")
     @ResponseBody

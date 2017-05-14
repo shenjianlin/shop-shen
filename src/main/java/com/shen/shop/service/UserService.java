@@ -11,5 +11,4 @@ public interface UserService extends BaseService<UserDo>{
 
     public Integer addUser(UserDo user);
 
-
 }
