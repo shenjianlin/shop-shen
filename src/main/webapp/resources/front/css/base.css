@@ -429,7 +429,7 @@ a:hover{text-decoration:underline;color:#D72D2E;}
 .prompt_success{width:16px; height:16px;background:url(../images/prompt_ico.png) no-repeat 0px 0px;float: left;margin: 4px 0 1px 0;}
 .shou_dis_i {background: url("../images/prompt_ico.png") no-repeat -58px 2px;cursor: pointer;height: 13px;padding: 2px;position: absolute;width: 13px;}
 .btn_dis_box {background-color: #fffff0;border: 1px solid #ffcc66;margin-right: 10px;bottom:23px;right: -29px;width:180px;position: absolute;z-index:999;border-radius:3px;box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);}
-.btn_dis_box_i {background: url("../images/cart/promptcar_ticob.png") no-repeat  0 0 ;height: 7px;left:83%;position: absolute;width: 12px;}
+.btn_dis_box_i {background: url("../images/promptcar_ticob.png") no-repeat  0 0 ;height: 7px;left:83%;position: absolute;width: 12px;}
 .btn_dis_main {color: #666666;line-height: 20px;padding: 10px;text-align: left;}
 .wenhaotcc font{padding-top: 3px; line-height: 18px;font-size:12px;}
 
@@ -666,15 +666,15 @@ a:hover{text-decoration:underline;color:#D72D2E;}
 
 }
 .tckhy_login{padding:0 0 25px 34px;}
-.input_name { background:url("../images/login/login_icoo.png") no-repeat scroll 255px 5px ;}
-.input_pass {background: url("../images/login/login_icoo.png") no-repeat scroll 256px -101px;}
+.input_name { background:url("../images/login_icoo.png") no-repeat scroll 255px 5px ;}
+.input_pass {background: url("../images/login_icoo.png") no-repeat scroll 256px -101px;}
 .input_name, .input_pass {border-radius: 3px;color: #333;font-family: "Verdana";font-size: 14px;height: 34px; line-height: 34px; margin-top: 22px;padding-left: 10px; width: 275px;}
 .loginFunction input {vertical-align: middle;}
 .loginFunction { margin: 10px 0 0 -4px;}
 .btn_login {background-color: #e03336;border: medium none;border-radius: 2px;color: #fff;cursor: pointer;font-size: 14px;font-weight: bold;height: 35px;margin-top: 15px;outline: medium none;width: 125px;}
 .btn_pop_login {background-color: #e03336;border: medium none;border-radius: 2px;color: #fff;cursor: pointer;font-size: 14px;font-weight: bold;height: 35px;margin-top: 15px;outline: medium none;width: 293px;}
 .btn_qqlogin {
-    background:url("../images/login/qq.png")  no-repeat scroll 23px 9px #09a3dc;
+    background:url("../images/qq.png")  no-repeat scroll 23px 9px #09a3dc;
     border: medium none;
     border-radius: 2px;
     color: #fff;
@@ -896,11 +896,11 @@ none; background:#dedede; color:#999999;}
 /*特价促销标签 */
 .cart_products_tjc{ background:url(../images/sale.png) no-repeat 0 2px; height:20px; width:75px; float:left;display:inline-block;cursor:pointer;position:relative;}
 /*限时抢购标签 */
-.cart_products_fsale{ background:url("../images/cart/checart_ico.png") no-repeat -19px -37px;height: 20px;float:left;width: 75px;display:inline-block;cursor:pointer;position:relative;}
+.cart_products_fsale{ background:url("../images/checart_ico.png") no-repeat -19px -37px;height: 20px;float:left;width: 75px;display:inline-block;cursor:pointer;position:relative;}
 /*赠品 */
 .cart_product_gifts{ background:url(../images/theGifts.png) no-repeat 0 0;height:18px;width:48px; float:left; display:inline-block; cursor:pointer; position:relative;margin-top:2px;}
 /*仅支持部分商品标签 */
-.cart_products_jinbufen{ background:url(../images/cart/jinbufen.png) no-repeat right bottom;height: 20px;float:left;width: 109px;display:inline-block;cursor:pointer;position:relative;}
+.cart_products_jinbufen{ background:url(../images/jinbufen.png) no-repeat right bottom;height: 20px;float:left;width: 109px;display:inline-block;cursor:pointer;position:relative;}
 /*不支持使用优惠券 */
 .cart_products_nocoupons{ background:url(../images/cart/buzhichi.png) no-repeat right bottom;height: 20px;float:left;width: 119px;display:inline-block;cursor:pointer;position:relative;}
 
@@ -974,9 +974,9 @@ none; background:#dedede; color:#999999;}
 
 
 /***150514新增产品详情分享**/
-.pro_share{  padding: 15px 10px 10px 10px; background:url(../images/share/share_bz.gif) no-repeat 11px 16px; padding-left:30px; color:#999; height:100%; overflow:hidden; }
+.pro_share{  padding: 15px 10px 10px 10px; background:url(../images/share_bz.gif) no-repeat 11px 16px; padding-left:30px; color:#999; height:100%; overflow:hidden; }
 .pro_share b{color:#999; float:left; font-weight:normal; line-height:16px;}
-.pro_share i{ background-image:url(../images/share/share_sina.gif); width:16px; height:16px; float:left; overflow:hidden; margin:0 4px;}
+.pro_share i{ background-image:url(../images/share_sina.gif); width:16px; height:16px; float:left; overflow:hidden; margin:0 4px;}
 .pro_share i a{ display:block; text-align:center;line-height:16px; text-indent:-999em}
 .pro_share_sina{ background-position:0 0}
 .pro_share_tq{ background-position:-24px 0}
@@ -990,8 +990,8 @@ none; background:#dedede; color:#999999;}
 /**拼团，产品详情和订单详情公用部分**/
 .order-pingtuan{ margin:15px; position:relative}
 .order-pingtuan h4{ margin-bottom:-10px; padding:0}
-.order-pingtuan-success{ background:url(../images/member_Predeposit/success.png) no-repeat; width:122px; height:80px; position:absolute; right:30px; top:0px;}
-.order-pingtuan-fail{ background:url(../images/member_Predeposit/fail.png) no-repeat;width:122px; height:80px; position:absolute; right:30px; top:0px;}
+.order-pingtuan-success{ background:url(../images/success.png) no-repeat; width:122px; height:80px; position:absolute; right:30px; top:0px;}
+.order-pingtuan-fail{ background:url(../images/fail.png) no-repeat;width:122px; height:80px; position:absolute; right:30px; top:0px;}
 .order-pingtuan .pintuan-list li{ margin:5px 10px; }
 .pingtuan-info{padding-top:5px; color:#d90000}
 .pintuan-list{ background:#f8f8f8; margin-top:10px; padding:8px 3px 3px 5px; height:100%; overflow:hidden}

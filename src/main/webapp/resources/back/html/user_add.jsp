@@ -88,7 +88,7 @@
 				</div>
 			</div>
 			<div class="col-lg-10">
-				<form action="${path}/user/all" method="get">
+				<form action="${path}/user/all" method="post">
 					<table
 						class="table table-striped table-bordered table-hover table-responsive">
 						<tr
@@ -99,24 +99,24 @@
 						</tr>
 						<tr>
 							<td>用户名：</td>
-							<td><input type="text" name="uname"
+							<td><input type="text" name="userName"
 								class="form-control input-sm"></td>
 						</tr>
 
 						<tr>
 							<td>密码：</td>
-							<td><input type="password" name="pwd"
+							<td><input type="password" name="password"
 								class="form-control input-sm"></td>
 						</tr>
 						<tr>
 							<td>确认密码：</td>
-							<td><input type="password" name="pwd2" id=""
+							<td><input type="password" name="pwd" id=""
 								class="form-control input-sm"></td>
 						</tr>
 						<tr>
 							<td>性别：</td>
-							<td><input type="radio" checked="checked" name="f" value="true">男
-								<input type="radio" name="f" value="false">女</td>
+							<td><input type="radio" checked="checked" name="sex" value="0">男
+								<input type="radio" name="sex" value="1">女</td>
 						</tr>
 						<tr>
 							<td>地址：</td>
@@ -131,8 +131,8 @@
 						<tr>
 							<td>状态：</td>
 							<td><select class="form-control input-sm" name="status">
-									<option value="false">已激活</option>
-									<option value="true">未激活</option>
+									<option value="1">已激活</option>
+									<option value="0">未激活</option>
 							</select></td>
 						</tr>
 						<tr style="background-color: #e0e0e0;">

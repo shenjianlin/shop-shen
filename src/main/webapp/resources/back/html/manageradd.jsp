@@ -90,7 +90,7 @@
 			</div>
 			<div class="col-lg-10">
 				<br>
-				<form action="../../Mannageradd.action" method="post">
+				<form action="${path}/admin/add" method="post">
 					<table
 						class="table table-striped table-bordered table-hover table-responsive table-condensed">
 						<thead>
@@ -102,24 +102,24 @@
 						<tbody>
 							<tr>
 								<td>用户名：</td>
-								<td><input type="text" placeholder="用户名" id="username"
-									name="name" class="userName"></td>
+								<td><input type="text" placeholder="用户名" id="userName"
+									name="adminsName" class="username"></td>
 							</tr>
 							<tr>
 								<td>密码</td>
 								<td><input type="password" placeholder="请输入密码" id="pwd"
-									name="pwd"></td>
+									name="adminsPassword"></td>
 							</tr>
 							<tr>
 								<td>确认密码</td>
 								<td><input type="password" placeholder="请再次输入密码"
-									id="password" name="password"></td>
+									id="password" name="pwd"></td>
 							</tr>
 							<tr>
 								<td>状态</td>
 								<td><select name="status">
 										<option value="1" selected="selected">普通管理员</option>
-										<option value="2">超级管理员</option>
+										<option value="0">超级管理员</option>
 								</select></td>
 							</tr>
 						</tbody>

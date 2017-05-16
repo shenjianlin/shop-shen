@@ -17,3 +17,9 @@ tag2: tag-name= v1.1
 tag3: tag-name= v1.2
 
  index 页面的菜单栏的显示
+
+tag4: tag-name= v1.3
+
+首页前台页面的前两个商品从数据库中显示
+
+添加登录注册页面   页面的修给等多项功能

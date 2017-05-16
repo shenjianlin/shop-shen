@@ -23,12 +23,12 @@ import java.util.List;
 @Service
 public abstract class BaseServiceImpl<T extends BaseDo> implements BaseService<T> {
 
-    @Autowired
+    /*@Autowired
     private RedisTemplate redisTemplate;
 
     @Autowired
     private CacheUtils cacheUtils;
-
+*/
     @Autowired(required = false)
     private MyMapper<T> mapper;
 

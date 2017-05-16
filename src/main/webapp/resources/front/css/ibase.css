@@ -666,15 +666,15 @@ a:hover{text-decoration:underline;color:#D72D2E;}
 
 }
 .tckhy_login{padding:0 0 25px 34px;}
-.input_name { background:url("../images/login/login_icoo.png") no-repeat scroll 255px 5px ;}
-.input_pass {background: url("../images/login/login_icoo.png") no-repeat scroll 256px -101px;}
+.input_name { background:url("../images/login_icoo.png") no-repeat scroll 255px 5px ;}
+.input_pass {background: url("../images/login_icoo.png") no-repeat scroll 256px -101px;}
 .input_name, .input_pass {border-radius: 3px;color: #333;font-family: "Verdana";font-size: 14px;height: 34px; line-height: 34px; margin-top: 22px;padding-left: 10px; width: 275px;}
 .loginFunction input {vertical-align: middle;}
 .loginFunction { margin: 10px 0 0 -4px;}
 .btn_login {background-color: #e03336;border: medium none;border-radius: 2px;color: #fff;cursor: pointer;font-size: 14px;font-weight: bold;height: 35px;margin-top: 15px;outline: medium none;width: 125px;}
 .btn_pop_login {background-color: #e03336;border: medium none;border-radius: 2px;color: #fff;cursor: pointer;font-size: 14px;font-weight: bold;height: 35px;margin-top: 15px;outline: medium none;width: 293px;}
 .btn_qqlogin {
-    background:url("../images/login/qq.png")  no-repeat scroll 23px 9px #09a3dc;
+    background:url("../images/qq.png")  no-repeat scroll 23px 9px #09a3dc;
     border: medium none;
     border-radius: 2px;
     color: #fff;
@@ -896,13 +896,13 @@ none; background:#dedede; color:#999999;}
 /*特价促销标签 */
 .cart_products_tjc{ background:url(../images/sale.png) no-repeat 0 2px; height:20px; width:75px; float:left;display:inline-block;cursor:pointer;position:relative;}
 /*限时抢购标签 */
-.cart_products_fsale{ background:url("../images/cart/checart_ico.png") no-repeat -19px -37px;height: 20px;float:left;width: 75px;display:inline-block;cursor:pointer;position:relative;}
+.cart_products_fsale{ background:url("../images/checart_ico.png") no-repeat -19px -37px;height: 20px;float:left;width: 75px;display:inline-block;cursor:pointer;position:relative;}
 /*赠品 */
 .cart_product_gifts{ background:url(../images/theGifts.png) no-repeat 0 0;height:18px;width:48px; float:left; display:inline-block; cursor:pointer; position:relative;margin-top:2px;}
 /*仅支持部分商品标签 */
-.cart_products_jinbufen{ background:url(../images/cart/jinbufen.png) no-repeat right bottom;height: 20px;float:left;width: 109px;display:inline-block;cursor:pointer;position:relative;}
+.cart_products_jinbufen{ background:url(../images/jinbufen.png) no-repeat right bottom;height: 20px;float:left;width: 109px;display:inline-block;cursor:pointer;position:relative;}
 /*不支持使用优惠券 */
-.cart_products_nocoupons{ background:url(../images/cart/buzhichi.png) no-repeat right bottom;height: 20px;float:left;width: 119px;display:inline-block;cursor:pointer;position:relative;}
+.cart_products_nocoupons{ background:url(../images/buzhichi.png) no-repeat right bottom;height: 20px;float:left;width: 119px;display:inline-block;cursor:pointer;position:relative;}
 
 /*虚拟商品*/
 .cart_products_xn{ background:url(../images/products/xu.png) no-repeat 0 2px; height:20px; width:75px; float:left; display:inline-block; cursor:pointer; position:relative; }
@@ -911,7 +911,7 @@ none; background:#dedede; color:#999999;}
 
 /*商品列表，加入购物车，和收藏按钮*/
 .proView-addCart{ height:25px;  background:url(../images/product_ico.png) no-repeat 13px -861px; padding-left: 31px; width: 115px; color:#df3134; border:1px solid #bebebe; background-color:#ffffff; cursor:pointer;} /*有货时~*/
-.proView-more{ height:25px;  background:url(../images/products/proview_more_ico.png) no-repeat 10px 4px; padding-left: 31px; width: 115px; color:#df3134; border:1px solid #bebebe; background-color:#ffffff; cursor:pointer;} /*查看详情~*/
+.proView-more{ height:25px;  background:url(../images/proview_more_ico.png) no-repeat 10px 4px; padding-left: 31px; width: 115px; color:#df3134; border:1px solid #bebebe; background-color:#ffffff; cursor:pointer;} /*查看详情~*/
 .proView-addCart:hover,.proView-more:hover{ border:1px solid #e03336;}
 .proView-addCartNull{height:25px;  background:url(../images/product_ico.png) no-repeat 13px -837px; padding-left: 31px; width: 115px; color:#aeaeae; border:1px solid #bebebe; background-color:#ffffff; cursor:pointer;}/*无货时~*/
 .proView-collection{ height:25px;  background:url(../images/product_ico.png) no-repeat 10px -534px;padding-left:25px; width:72px;color:#666666; border:1px solid #bebebe; background-color:#ffffff; cursor:pointer;}
@@ -990,8 +990,8 @@ none; background:#dedede; color:#999999;}
 /**拼团，产品详情和订单详情公用部分**/
 .order-pingtuan{ margin:15px; position:relative}
 .order-pingtuan h4{ margin-bottom:-10px; padding:0}
-.order-pingtuan-success{ background:url(../images/member_Predeposit/success.png) no-repeat; width:122px; height:80px; position:absolute; right:30px; top:0px;}
-.order-pingtuan-fail{ background:url(../images/member_Predeposit/fail.png) no-repeat;width:122px; height:80px; position:absolute; right:30px; top:0px;}
+.order-pingtuan-success{ background:url(../images/success.png) no-repeat; width:122px; height:80px; position:absolute; right:30px; top:0px;}
+.order-pingtuan-fail{ background:url(../images/fail.png) no-repeat;width:122px; height:80px; position:absolute; right:30px; top:0px;}
 .order-pingtuan .pintuan-list li{ margin:5px 10px; }
 .pingtuan-info{padding-top:5px; color:#d90000}
 .pintuan-list{ background:#f8f8f8; margin-top:10px; padding:8px 3px 3px 5px; height:100%; overflow:hidden}

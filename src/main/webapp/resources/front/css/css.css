@@ -15,10 +15,10 @@ body{font-family:"微软雅黑"; background:#F6F6F6}
 .ht-menu-wrap .ht-menu li p{ padding-left:35px;transition:all .3s ease; height:0; overflow:hidden; line-height:30px;}
 .ht-menu-wrap .ht-menu li:hover p{ height:auto;  padding-bottom:10px; padding-top:5px}
 .ht-menu-wrap .ht-menu li p a{ color:#fff; display:block; line-height:22px;}
-.ht-menu-wrap .ht-menu li span{ width:80px; height:80px;  line-height:80px; color:#666; font-size:15px; margin:10px auto; padding-left:0; display:block;transition:all .5s ease; position:relative;background:url(images/80x80-1.png) center center;}
+.ht-menu-wrap .ht-menu li span{ width:80px; height:80px;  line-height:80px; color:#666; font-size:15px; margin:10px auto; padding-left:0; display:block;transition:all .5s ease; position:relative;background:url(../images/80x80-1.png) center center;}
 .ht-menu-wrap .ht-menu li span:hover{/*transform:rotate(360deg); -ms-transform:rotate(360deg);*/ color:#ff5555 !important}
 .ht-menu-wrap .ht-menu li span a{ position:absolute; z-index:2; color:#444; left:10px; top:10px}
-.ht-menu-wrap .ht-menu li span .ico{ width:30px; height:30px; background-image:url(images/mune_ico.png); background-repeat:no-repeat; position:absolute;left:25px; top:10px; z-index:2}
+.ht-menu-wrap .ht-menu li span .ico{ width:30px; height:30px; background-image:url(../images/mune_ico.png); background-repeat:no-repeat; position:absolute;left:25px; top:10px; z-index:2}
 .ht-menu-wrap .ht-menu li span .one{ background-position:0px 2px}
 .ht-menu-wrap .ht-menu li:hover .one{ background-position:0px -60px}
 .ht-menu-wrap .ht-menu li span .two{ background-position:-62px 2px}
@@ -41,7 +41,7 @@ body{font-family:"微软雅黑"; background:#F6F6F6}
 .ht-menu-wrap .ht-menu li:hover .ten{ background-position:-524px -60px}
 
 .ht-menu-wrap .ht-menu li:hover span a{ text-decoration:none; color:#fff}
-.change{ position:absolute; top:-10px; left:-10px; -webkit-animation:change 2s linear infinite; background:url(images/80x80.png); width:100px; height:100px; display:none}
+.change{ position:absolute; top:-10px; left:-10px; -webkit-animation:change 2s linear infinite; background:url(../images/80x80.png); width:100px; height:100px; display:none}
 .ht-menu-wrap .ht-menu li:hover .change{animation: change 3s linear infinite;-moz-animation: change 3s linear infinite;-ms-animation: change 3s linear infinite;-o-animation: change 3s linear infinite; -webkit-animation: change 3s linear infinite;display:block}
 @-moz-keyframes change {
 0% {
@@ -95,7 +95,7 @@ body{font-family:"微软雅黑"; background:#F6F6F6}
 .ht-main .content{ margin-bottom:20px; height:100%; overflow:hidden} 
 .ht-main .content li{ width:219px; border:1px solid #e6e6e6; margin-right:-1px; padding:10px;background:#fff; float:left; padding-bottom:5px; position:relative}
 .ht-main .content li img{ text-align:center; margin:0 auto; width:220px; height:220px; margin-bottom:3px;transition:All 0.4s ease-in-out;}
-.ht-main .content li img:hover{transform:scale(1.03);-webkit-transform:-moz-transform:scale(1.03);-o-transform:scale(1.03);-ms-transform:scale(1.03);}
+.ht-main .content li img:hover{transform:scale(1.03);-webkit-transform:scale(1.03);-o-transform:scale(1.03);-ms-transform:scale(1.03);}
 .ht-main .content li p{ color:#ff3333; margin-bottom:5px; height:20px; overflow:hidden; line-height:20px;}
 .ht-main .content li p.bt{ height:40px; overflow:hidden}
 .ht-main .content li p.bt a{ font-size:14px; color:#444; line-height:20px;}
@@ -103,8 +103,8 @@ body{font-family:"微软雅黑"; background:#F6F6F6}
 .ht-main .content li p.sale{ font-size:14px; color:#D2264C}
 .ht-main .content li p.sale span{ color:#333; font-size:12px;}
 .ht-main li i{ position:absolute; left:10px; top:0px; width:32px; height:39px; background-repeat:no-repeat}
-.ht-main li i.offer{background:url(images/tejia.png) ;}
-.ht-main li i.new{background:url(images/xinpin.png) ;}
+.ht-main li i.offer{background:url(../images/tejia.png) ;}
+.ht-main li i.new{background:url(../images/tejia.png) ;}
 
 .four{ width:595px;}
 .float-l{ float:left}

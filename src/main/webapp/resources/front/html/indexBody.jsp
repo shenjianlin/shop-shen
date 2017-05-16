@@ -87,7 +87,7 @@
 </div><div class="in-top">
   <div class="in-top-wrap">
     <div class="in-top-t">
-      <div class="logo"><!--2016动画开始--><div class="logif"></div><!--2016动画结束--><a href="http://www.shengyuan.cn/"><img src="${path}/resources/front/images/logo.jpg"></a></div>
+      <div class="logo"><!--2016动画开始--><div class="logif"></div><!--2016动画结束--><a href="${path}/"><img src="${path}/resources/front/images/logo.jpg"></a></div>
       <div class="rsea">
         <div class="seach">
           <div class="keyword search_result_pop" style="display: none;"></div>
@@ -99,19 +99,19 @@
             </div>
           </form>
           <div class="seach—hot">
-            <a href="javascript:;" onclick="location.href=&#39;/product/search.jhtml?keyword=%E5%B7%A7%E5%85%8B%E5%8A%9B&#39;">巧克力</a>
-            <a href="javascript:;" onclick="location.href=&#39;/product/search.jhtml?keyword=%E5%95%A4%E9%85%92&#39;">啤酒</a>
-            <a href="javascript:;" onclick="location.href=&#39;/product/search.jhtml?keyword=%E5%A5%B6%E7%B2%89&#39;">奶粉</a>
-            <a href="javascript:;" onclick="location.href=&#39;/product/search.jhtml?keyword=%E7%89%9B%E5%A5%B6&#39;">牛奶</a>
-            <a href="javascript:;" onclick="location.href=&#39;/product/search.jhtml?keyword=%E5%8F%AF%E4%B9%90&#39;">可乐</a>
-            <a href="javascript:;" onclick="location.href=&#39;/product/search.jhtml?keyword=%E8%B0%83%E5%92%8C%E6%B2%B9&#39;">调和油</a>
-            <a href="javascript:;" onclick="location.href=&#39;/product/search.jhtml?keyword=%E6%B4%97%E5%8F%91%E6%B0%B4&#39;">洗发水</a>
-            <a href="javascript:;" onclick="location.href=&#39;/product/search.jhtml?keyword=%E6%B2%90%E6%B5%B4%E9%9C%B2&#39;">沐浴露</a>
-            <a href="javascript:;" onclick="location.href=&#39;/product/search.jhtml?keyword=%E7%89%99%E8%86%8F&#39;">牙膏</a>
-            <a href="javascript:;" onclick="location.href=&#39;/product/search.jhtml?keyword=%E6%B4%97%E8%A1%A3%E6%B6%B2&#39;">洗衣液</a>
-            <a href="javascript:;" onclick="location.href=&#39;/product/search.jhtml?keyword=%E7%BA%B8%E5%B7%BE&#39;">纸巾</a>
-            <a href="javascript:;" onclick="location.href=&#39;/product/search.jhtml?keyword=%E5%8D%AB%E7%94%9F%E5%B7%BE&#39;">卫生巾</a>
-            <a href="javascript:;" onclick="location.href=&#39;/product/search.jhtml?keyword=%E5%9E%83%E5%9C%BE%E8%A2%8B&#39;">垃圾袋</a>
+            <a href="#">巧克力</a>
+            <a href="#">啤酒</a>
+            <a href="#">奶粉</a>
+            <a href="#">牛奶</a>
+            <a href="#">可乐</a>
+            <a href="#">调和油</a>
+            <a href="#">洗发水</a>
+            <a href="#">沐浴露</a>
+            <a href="#">牙膏</a>
+            <a href="#">洗衣液</a>
+            <a href="#">纸巾</a>
+            <a href="#">卫生巾</a>
+            <a href="#">垃圾袋</a>
           </div>
         </div>
         <div class="cart"><i id="cartCount">0</i><a href="http://www.shengyuan.cn/cart/list.jhtml">我的购物车</a></div>
@@ -124,26 +124,25 @@
           if(status == "success"){
             var strHtml;
             $.each(data[0],function(i,v){
+
               strHtml = "";
               strHtml += '<li class="menus'+(i+1)+' per-menu'+(i+1)+'">';
-              strHtml += '<h3><a href="#" target="_blank" id="h30">'+ v.cname +'</a></h3>';
+              strHtml += '<h3><a href="'+v.menuUri+'" target="_blank" id="h30">'+ v.cname +'</a></h3>';
               strHtml += '<div class="xl">';
-
-              strHtml += '<a href="#" title="'+ data[v.caregoryId][0].cname +'">'+ data[v.caregoryId][0].cname +'</a>';
-              strHtml += '<a href="#" title="'+ data[v.caregoryId][1].cname +'">'+ data[v.caregoryId][1].cname +'</a>';
-              strHtml += '<a href="#" title="'+ data[v.caregoryId][2].cname +'">'+ data[v.caregoryId][2].cname +'</a>';
+              strHtml += '<a href="'+ data[v.caregoryId][0].menuUri +'" title="'+ data[v.caregoryId][0].cname +'">'+ data[v.caregoryId][0].cname +'</a>';
+              strHtml += '<a href="'+ data[v.caregoryId][0].menuUri +'" title="'+ data[v.caregoryId][1].cname +'">'+ data[v.caregoryId][1].cname +'</a>';
+              strHtml += '<a href="'+ data[v.caregoryId][0].menuUri +'" title="'+ data[v.caregoryId][2].cname +'">'+ data[v.caregoryId][2].cname +'</a>';
               strHtml += '</div>';
-
               strHtml += '<div class="dorpmenu sub-menu'+(i+1)+'">';
               strHtml += '<div class="dorpmenubj"><div class="dorpmenu-left">';
 
               if(typeof(data[v.caregoryId]) != "undefined"){
                 $.each(data[v.caregoryId],function(index,val){
                   strHtml+='<dl>';
-                  strHtml+='<dt><a href="#">'+val.cname+'</a></dt>';
+                  strHtml+='<dt><a href="'+val.menuUri+'">'+val.cname+'</a></dt>';
                   if(typeof(data[val.caregoryId]) != "undefined"){
                     $.each(data[val.caregoryId], function (inx, value) {
-                      strHtml += '<dd><a href="#">' + value.cname + '</a></dd>';
+                      strHtml += '<dd><a href="'+value.menuUri+'">' + value.cname + '</a></dd>';
                     });
                   }
                   strHtml+='</dl>';
@@ -179,32 +178,32 @@
       <div class="top-menu">
         <ul>
           <li>
-            <a href="http://www.shengyuan.cn/">
+            <a href="${path}/goods/list">
               首页
             </a>
           </li>
           <li>
-            <a href="http://www.shengyuan.cn/sub/iWr1uuH4DA.jhtml" target="_blank">
+            <a href="${path}/resources/front/html/milk.jsp" target="_blank">
               海淘商城
             </a>
           </li>
           <li>
-            <a href="http://www.shengyuan.cn/sub/XQB0VeAwass.jhtml" target="_blank">
+            <a href="${path}/resources/front/html/dish.jsp" target="_blank">
               每日尝鲜
             </a>
           </li>
           <li>
-            <a href="http://www.shengyuan.cn/product/query.jhtml?pcId=1691" target="_blank">
+           <a href="${path}/resources/front/html/purchase.jsp" target="_blank">
               中国银都
             </a>
           </li>
           <li>
-            <a href="http://www.shengyuan.cn/sub/hRkdLmXiWQqp.jhtml" target="_blank">
+            <a href="${path}/resources/front/html/spike.jsp" target="_blank">
               秒杀专区
             </a>
           </li>
           <li>
-            <a href="http://www.shengyuan.cn/sub/qaDSTCNTnx.jhtml">
+            <a href="${path}/resources/front/html/integral.jsp">
               闪购积分
             </a>
           </li>

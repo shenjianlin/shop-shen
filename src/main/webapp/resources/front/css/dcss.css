@@ -2,7 +2,7 @@
 /* CSS Document */
 body{ background:#f5f5f5 !important}
 
-.frbanner{height:700px; background:url(${path}/resources/front/images/banner.png) center top no-repeat; margin-bottom:40px}
+.frbanner{height:700px; background:url(../images/banner.png) center top no-repeat; margin-bottom:40px}
 
 
 .eight{ width:1200px; margin:0 auto; display:none}
@@ -35,15 +35,15 @@ body{ background:#f5f5f5 !important}
 
 .frmain{ width:1200px; margin:0 auto; height:100%;}
 .frcai .frcai-left{ width:960px; float:left; height:100%;}
-.frcai .frcai-left li{ height:305px;padding:10px; box-shadow:1px 1px 3px 1px #ddd; margin-bottom:20px;  transition:all .2s ease; background:url(${path}/resources/front/images/listbg.png) no-repeat left bottom #fff; position:relative}
+.frcai .frcai-left li{ height:305px;padding:10px; box-shadow:1px 1px 3px 1px #ddd; margin-bottom:20px;  transition:all .2s ease; background:url(../images/listbg.png) no-repeat left bottom #fff; position:relative}
 .frcai .frcai-left li img{ width:305px; height:305px; transition:all .3s ease .1s;outline:0px solid #ddd; outline-offset:0px;}
 /*.frcai .frcai-left li img:hover{ outline:1px solid #f5f5f5; outline-offset:-10px;}*/
-.frcai .frcai-left li pre{ position:absolute; left:-7px; top:-19px; width:105px; height:107px; background:url(${path}/resources/front/images/taocan.png)}
+.frcai .frcai-left li pre{ position:absolute; left:-7px; top:-19px; width:105px; height:107px; background:url(../images/taocan.png)}
 .frcai .frcai-left li:hover{box-shadow:2px 2px 4px 1px #ccc; }
 .frcai .frcai-left li:hover .caititle a{ color:#000}
 .frcai .frcai-left li span{ float:right; width:405px; position:relative; height:305px;}
 .frcai .frcai-left li span:first-child{ float:left; width:305px; margin-left:215px; position:relative}
-/*.frcai .frcai-left li span i.xian{ position:absolute; right:10px; top:0px; width:49px; height:59px; background:url(${path}/resources/front/images/tao.png)}*/
+/*.frcai .frcai-left li span i.xian{ position:absolute; right:10px; top:0px; width:49px; height:59px; background:url(../images/tao.png)}*/
 .frcai-left li span p{ width:100%}
 .frcai-left li span p.caititle{ border-bottom:1px dashed #ccc; padding:10px 0}
 .frcai-left li span p.caititle a{ font-size:18px; color:#333}
@@ -58,11 +58,11 @@ body{ background:#f5f5f5 !important}
 .frcai-left li span p.caisalebuy i a:hover{ background:#42AE2B; text-decoration:none}
 .frcai-left li span p.cainumber{ position:absolute; left:0; bottom:5px;}
 .frcai-left li span p.cainumber i{ float:right; color:#999}
-.frcai-left li span p.cainumber i:first-child{ float:left; color:#3D8A39; background:url(${path}/resources/front/images/newfresh1_ico.png) no-repeat  -299px -781px; padding-left:20px;}
+.frcai-left li span p.cainumber i:first-child{ float:left; color:#3D8A39; background:url(../images/newfresh1_ico.png) no-repeat  -299px -781px; padding-left:20px;}
 .frcai-left li span p.cainumber i em{ font-style:normal;color:#3D8A39; font-size:18px;}
 .frcai .frcai-right{width:225px; float:right;background:#fff}
 .title-list{ border-top:2px solid #4B9F47; height:53px;}
-.title-list a{ width:53px; height:53px; display:block; line-height:53px; text-align:center; text-indent:-999em; background-image: url(${path}/resources/front/images/gg_menu.png); background-repeat:no-repeat; float:left ; margin:10px;}
+.title-list a{ width:53px; height:53px; display:block; line-height:53px; text-align:center; text-indent:-999em; background-image: url(../images/gg_menu.png); background-repeat:no-repeat; float:left ; margin:10px;}
 .title-list .title1{ background-position:0 0}
 .title-list .title2{ background-position:-72px 0}
 .title-list .title3{background-position:-144px 0}
@@ -84,23 +84,23 @@ body{ background:#f5f5f5 !important}
 .leibie li a{ display:block;  line-height:60px; color:#fff; font-size:16px}
 .leibie li a:hover{ text-decoration:none}
 
-.leibie li.shu{ background:url(${path}/resources/front/images/menu_nav.png) no-repeat 10px 5px #4CA048;}
-.leibie li.shu:hover{ background:url(${path}/resources/front/images/menu_nav.png) no-repeat -306px 5px #74A731;}
+.leibie li.shu{ background:url(../images/menu_nav.png) no-repeat 10px 5px #4CA048;}
+.leibie li.shu:hover{ background:url(../images/menu_nav.png) no-repeat -306px 5px #74A731;}
 .leibie li.shu:hover a{ color:#57851B}
-.leibie li.rou{ background:url(${path}/resources/front/images/menu_nav.png) no-repeat 10px -122px #4CA048;}
-.leibie li.rou:hover{ background:url(${path}/resources/front/images/menu_nav.png) no-repeat -306px -122px #EA4D54;}
+.leibie li.rou{ background:url(../images/menu_nav.png) no-repeat 10px -122px #4CA048;}
+.leibie li.rou:hover{ background:url(../images/menu_nav.png) no-repeat -306px -122px #EA4D54;}
 .leibie li.rou:hover a{color:#AD181E}
-.leibie li.dan{ background:url(${path}/resources/front/images/menu_nav.png) no-repeat 10px -247px #4CA048;}
-.leibie li.dan:hover{ background:url(${path}/resources/front/images/menu_nav.png) no-repeat -306px -247px #C19537;}
+.leibie li.dan{ background:url(../images/menu_nav.png) no-repeat 10px -247px #4CA048;}
+.leibie li.dan:hover{ background:url(../images/menu_nav.png) no-repeat -306px -247px #C19537;}
 .leibie li.dan:hover a{color:#9D7318}
-.leibie li.shui{ background:url(${path}/resources/front/images/menu_nav.png) no-repeat 10px -374px #4CA048;}
-.leibie li.shui:hover{ background:url(${path}/resources/front/images/menu_nav.png) no-repeat -306px -374px #2C7CAD;}
+.leibie li.shui{ background:url(../images/menu_nav.png) no-repeat 10px -374px #4CA048;}
+.leibie li.shui:hover{ background:url(../images/menu_nav.png) no-repeat -306px -374px #2C7CAD;}
 .leibie li.shui:hover a{color:#135379}
-.leibie li.dou{ background:url(${path}/resources/front/images/menu_nav.png) no-repeat 6px -501px #4CA048;}
-.leibie li.dou:hover{ background:url(${path}/resources/front/images/menu_nav.png) no-repeat -310px -501px #D96D00;}
+.leibie li.dou{ background:url(../images/menu_nav.png) no-repeat 6px -501px #4CA048;}
+.leibie li.dou:hover{ background:url(../images/menu_nav.png) no-repeat -310px -501px #D96D00;}
 .leibie li.dou:hover a{color:#A85400}
-.leibie li.shi{ background:url(${path}/resources/front/images/menu_nav.png) no-repeat 10px -634px #4CA048;}
-.leibie li.shi:hover{ background:url(${path}/resources/front/images/menu_nav.png) no-repeat -306px -634px #604800;}
+.leibie li.shi{ background:url(../images/menu_nav.png) no-repeat 10px -634px #4CA048;}
+.leibie li.shi:hover{ background:url(../images/menu_nav.png) no-repeat -306px -634px #604800;}
 .leibie li.shi:hover a{color:#886600}
 
 
@@ -132,7 +132,7 @@ body{ background:#f5f5f5 !important}
 .leibie1 li a:hover{ text-decoration:none}
 
 
-.fr-list-title{ display:block; line-height:56px; padding-left:30px;     font-size:20px; color:#333; margin:20px 0 0px 0;background:url(${path}/resources/front/images/titlebj.png) no-repeat 0px 0px; color:#fff/*border-bottom:2px solid #333*/}
+.fr-list-title{ display:block; line-height:56px; padding-left:30px;     font-size:20px; color:#333; margin:20px 0 0px 0;background:url(../images/titlebj.png) no-repeat 0px 0px; color:#fff/*border-bottom:2px solid #333*/}
 
 .fr-list-title a{ float:right}
 .fr-list{ width:1220px; margin-left:-10px; padding-top:10px;}
@@ -148,10 +148,10 @@ body{ background:#f5f5f5 !important}
 .fr-list li:hover p.frbuy{ opacity:1;right:0px;}
 .fr-list li p.frbuy a{ display:block; color:#fff; background:#46BF2E}
 .fr-list li p.frbuy a:hover{ text-decoration:none;  background:#42AE2B}
-.fr-list li i.te{ position:absolute; left:5px; top:0px; width:49px; height:59px; background:url(${path}/resources/front/images/te.png)}
+.fr-list li i.te{ position:absolute; left:5px; top:0px; width:49px; height:59px; background:url(../images/te.png)}
 
-.fr-list li p.nofrbuy{ position:absolute;background:url(${path}/resources/front/images/no.png); width:265px; height:230px; top:-5px; left:-10px}
-.frtips{background:url(${path}/resources/front/images/tips.png); width:790px; height:240px; margin:0 auto; margin-bottom:20px; font-size:16px; padding-left:410px; padding-top:80px; }
+.fr-list li p.nofrbuy{ position:absolute;background:url(../images/no.png); width:265px; height:230px; top:-5px; left:-10px}
+.frtips{background:url(../images/tips.png); width:790px; height:240px; margin:0 auto; margin-bottom:20px; font-size:16px; padding-left:410px; padding-top:80px; }
 .frtips p{ margin-bottom:10px;}
 .frtips p:first-child{ font-size:30px; color:#4C9F46; line-height:40px;}
 .frtips p i{ color:#C00; margin-right:5px;}

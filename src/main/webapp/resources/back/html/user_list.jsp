@@ -135,6 +135,7 @@
 			if(status == "success"){
 				var strHtml;
 				$.each(data,function(i,v){
+					strHtml='';
 					strHtml+='<tr>';
 					strHtml+='<td>'+ v.userId+'</td>';
 					strHtml+='<td>'+ v.userName+'</td>';

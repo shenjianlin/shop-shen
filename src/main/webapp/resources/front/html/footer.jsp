@@ -12,58 +12,58 @@
       <ul>
         <li>购物指南</li>
         <li>
-          <a href="http://www.shengyuan.cn/articles/content/201403/12/1.html" target="_blank">交易条款</a>
+          <a href="#" target="_blank">交易条款</a>
         </li>
         <li>
-          <a href="http://www.shengyuan.cn/articles/content/201403/1/1.html" target="_blank">购物流程</a>
+          <a href="#" target="_blank">购物流程</a>
         </li>
         <li>
-          <a href="http://www.shengyuan.cn/articles/content/201403/6/1.html" target="_blank">发票制度</a>
+          <a href="#" target="_blank">发票制度</a>
         </li>
         <li>
-          <a href="http://www.shengyuan.cn/articles/content/201403/8/1.html" target="_blank">常见问题</a>
+          <a href="#" target="_blank">常见问题</a>
         </li>
       </ul>
 
       <ul>
         <li class="bottom_nk_bt">支付方式</li>
         <li>
-          <a href="http://www.shengyuan.cn/articles/content/201407/60/1.html" target="_blank">货到付款</a>
+          <a href="#" target="_blank">货到付款</a>
         </li>
         <li>
-          <a href="http://www.shengyuan.cn/articles/content/201406/51/1.html" target="_blank">支付宝支付</a>
+          <a href="#" target="_blank">支付宝支付</a>
         </li>
         <li>
-          <a href="http://www.shengyuan.cn/articles/content/201406/52/1.html" target="_blank">银联在线支付</a>
+          <a href="#" target="_blank">银联在线支付</a>
         </li>
       </ul>
 
       <ul>
         <li class="bottom_nk_bt">配送方式</li>
         <li>
-          <a href="http://www.shengyuan.cn/articles/content/201406/44/1.html" target="_blank">送货上门</a>
+          <a href="#" target="_blank">送货上门</a>
         </li>
         <li>
-          <a href="http://www.shengyuan.cn/articles/content/201406/45/1.html" target="_blank">门店自提</a>
+          <a href="#" target="_blank">门店自提</a>
         </li>
         <li>
-          <a href="http://www.shengyuan.cn/articles/content/201406/46/1.html" target="_blank">物流状态查询</a>
+          <a href="#" target="_blank">物流状态查询</a>
         </li>
       </ul>
 
       <ul>
         <li class="bottom_nk_bt">售后服务</li>
         <li>
-          <a href="http://www.shengyuan.cn/articles/content/201406/47/1.html" target="_blank">服务承诺</a>
+          <a href="#" target="_blank">服务承诺</a>
         </li>
         <li>
-          <a href="http://www.shengyuan.cn/articles/content/201403/5/1.html" target="_blank">退换货政策</a>
+          <a href="#" target="_blank">退换货政策</a>
         </li>
         <li>
-          <a href="http://www.shengyuan.cn/articles/content/201407/62/1.html" target="_blank">退换货流程</a>
+          <a href="#" target="_blank">退换货流程</a>
         </li>
         <li>
-          <a href="http://www.shengyuan.cn/articles/content/201407/63/1.html" target="_blank">联系客服</a>
+          <a href="#" target="_blank">联系客服</a>
         </li>
       </ul>
 
@@ -82,24 +82,24 @@
         </li>
         <li class="clear"></li>
         <li class="ser-wb">
-          <span class="tx"><a href="http://t.qq.com/shengyuanshangou" target="_blank">腾讯微博</a></span>
-          <span class="xl"><a href="http://weibo.com/u/5096888851" target="_blank">新浪微博</a></span>
+          <span class="tx"><a href="#" target="_blank">腾讯微博</a></span>
+          <span class="xl"><a href="#" target="_blank">新浪微博</a></span>
         </li>
       </ul>
     </div>
 
     <div class="bcopy">
-      <a href="http://www.shengyuan.cn/articles/content/201406/53/1.html" target="_blank">关于我们</a>
+      <a href="#" target="_blank">关于我们</a>
       <span>|</span>
-      <a href="http://www.shengyuan.cn/articles/content/201407/63/1.html" target="_blank">联系我们</a>
+      <a href="#" target="_blank">联系我们</a>
       <span>|</span>
-      <a href="http://www.shengyuan.cn/article/list/18.jhtml" target="_blank">诚聘英才</a>
+      <a href="#html" target="_blank">诚聘英才</a>
       <span>|</span>
-      <a href="http://www.shengyuan.cn/articles/content/201407/65/1.html" target="_blank">法律声明</a>
+      <a href="#201407/65/1.html" target="_blank">法律声明</a>
       <span>|</span>
-      <a href="http://www.shengyuan.cn/friend_link.jhtml" target="_blank">友情链接</a>
+      <a href="#" target="_blank">友情链接</a>
       <span>|</span>
-      <a href="http://m.kuaidi100.com/" target="_blank">快递查询</a>
+      <a href="#" target="_blank">快递查询</a>
 
 
       <br>

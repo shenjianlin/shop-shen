@@ -47,7 +47,7 @@ public class CaregoryServiceImpl extends BaseServiceImpl<CaregoryDo> implements 
          for (CaregoryDo caregory : ls){
             CaregoryDo caregoryDo=new CaregoryDo();
             caregoryDo.setCid(caregory.getCaregoryId());
-             caregoryDo.setRedisKeyId(caregoryDo.getCid());
+            // caregoryDo.setRedisKeyId(caregoryDo.getCid());
 
              if(!isLeafNode(caregory.getCaregoryId())){
                  getCaregoryDetail(select(caregoryDo), caregory.getCaregoryId(), map);

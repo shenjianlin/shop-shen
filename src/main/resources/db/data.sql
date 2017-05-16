@@ -77,3 +77,13 @@ INSERT INTO CAREGORY(CAREGORY_ID,CNAME,CID)
 VALUES(1050,'家纺日用',1008),
 	(1051,'床上用品',1008),
 	(1052,'餐具水杯',1008);
+
+
+
+
+insert  into `GOODS`(`GOODS_ID`,`GNAME`,`CAREGORY_ID`,`PRICE`,`OLDPRICE`,`STORE`,`STATUS`,`DESCR`,`NUM`,`CLICKNUM`,`COMPANG`,`PICNAME`)
+values (1000,'两面针中药护龈果橙...',1000,7.80,13.80,1000,1,'',NULL,NULL,NULL,'/resources/front/images/9816e784-9aa8-453e-a64a-1ed955c323c1-medium.jpg'),
+(1001,'利乐包旺仔牛奶复原...',1000,39.00,45.00,1000,1,'',10,NULL,NULL,'/resources/front/images/b47f7ced-5c7e-49f4-96a4-7561bb210372-medium.jpg'),
+(1002,'心相印红悦系列13...',1000,21.90,27.50,1000,1,'',10,NULL,NULL,'/resources/front/images/f98f4710-6631-4e55-a79b-ce3751b0d500-medium.jpg'),
+(1003,'唐人神水晶香肠20...',1000,8.50,13.80,1000,1,'',10,NULL,NULL,'/resources/front/images/1f9872e5-d011-4de5-9f1f-9c6a9f90b199-medium.jpg'),
+(1004,'心相印柔影170克...',1000,21.90,27.50,1000,1,'',10,NULL,NULL,'/resources/front/images/349c10dd-868c-4d95-886e-4d4b8bbb1964-medium.jpg');

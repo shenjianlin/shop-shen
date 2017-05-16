@@ -11,6 +11,6 @@
     <title></title>
 </head>
 <body>
-欢迎调用成功！
+<a href="#" onclick="return confirm('是否要删')">aaaa</a>
 </body>
 </html>

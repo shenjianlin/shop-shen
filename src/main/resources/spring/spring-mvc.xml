@@ -13,7 +13,7 @@
     <context:annotation-config />
 
     <!-- 扫描识别包下包含的注解类 @Controller -->
-    <context:component-scan base-package="com.shen.shop.web">
+    <context:component-scan base-package="com.shen.shop">
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
         <context:include-filter type="annotation" expression="org.springframework.web.bind.annotation.RestController"/>
     </context:component-scan>

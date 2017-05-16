@@ -7,7 +7,7 @@
 <div class="jing-tips hidden" style="display: block;"><div><a href="javascript:;" class="close">x</a><font color="red">生源闪购对郴州市内地址，采取就近门店配送原则，请正确选择您的配送街道，以确保您购买的商品能及时送到您手中，感谢您的配合。</font></div></div>
 <div class="clear"></div>
 
-<%@include file="indexBody.jsp"%>
+<%@include file="body04.jsp"%>
 
 <%@include file="buy.jsp"%>
 <!----------轮播图------------->

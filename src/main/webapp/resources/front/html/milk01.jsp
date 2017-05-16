@@ -341,7 +341,7 @@
 							<div>
 								<span>
 									<a href="http://www.shengyuan.cn/sub/2A2PvDDQ5ub.jhtml">每日鲜</a>
-									<a href="http://www.shengyuan.cn/sub/EIkIJlJHMvtu.jhtml">量贩式</a> 
+									<a href="http://www.shengyuan.cn/sub/EIkIJlJHMvtu.jhtml">量贩式</a>
 									<a href="http://www.shengyuan.cn/sub/n846FjPaYYe.jhtml">名酒汇</a>
 								</span>
 								<span>
@@ -368,7 +368,7 @@
 </div><div class="in-top">
 	<div class="in-top-wrap">
 		<div class="in-top-t">
-			<div class="logo"><!--2016动画开始--><div class="logif"></div><!--2016动画结束--><a href="http://www.shengyuan.cn/"><img src="${path}/resources/front/images/logo.jpg"></a></div>
+			<div class="logo"><!--2016动画开始--><div class="logif"></div><!--2016动画结束--><a href="${path}/"><img src="${path}/resources/front/images/logo.jpg"></a></div>
 			<div class="rsea">
 				<div class="seach">
 					<div class="keyword search_result_pop" style="display: none;"></div>
@@ -2124,32 +2124,32 @@
 			<div class="top-menu">
 				<ul>
 					<li>
-						<a href="http://www.shengyuan.cn/">
+						<a href="${path}/">
 							首页
 						</a>
 					</li>
 					<li>
-						<a href="http://www.shengyuan.cn/sub/iWr1uuH4DA.jhtml" target="_blank">
+						<a href="${path}/resources/front/html/milk.jsp" target="_blank">
 							海淘商城
 						</a>
 					</li>
 					<li>
-						<a href="http://www.shengyuan.cn/sub/XQB0VeAwass.jhtml" target="_blank">
+						<a href="${path}/resources/front/html/dish.jsp" target="_blank">
 							每日尝鲜
 						</a>
 					</li>
 					<li>
-						<a href="http://www.shengyuan.cn/product/query.jhtml?pcId=1691" target="_blank">
+						<a href="${path}/resources/front/html/purchase.jsp" target="_blank">
 							中国银都
 						</a>
 					</li>
 					<li>
-						<a href="http://www.shengyuan.cn/sub/hRkdLmXiWQqp.jhtml" target="_blank">
+						<a href="${path}/resources/front/html/spike.jsp" target="_blank">
 							秒杀专区
 						</a>
 					</li>
 					<li>
-						<a href="http://www.shengyuan.cn/sub/qaDSTCNTnx.jhtml">
+						<a href="${path}/resources/front/html/integral.jsp">
 							闪购积分
 						</a>
 					</li>

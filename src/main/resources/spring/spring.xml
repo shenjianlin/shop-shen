@@ -16,6 +16,7 @@
     <!--spring容器不扫描mvc的controller -->
     <context:component-scan base-package="com.shen.shop">
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+        <context:exclude-filter type="annotation" expression="org.springframework.web.bind.annotation.RestController"/>
     </context:component-scan>
 
     <context:property-placeholder location="classpath:db.properties"/>

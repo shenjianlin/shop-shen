@@ -1,9 +1,12 @@
 package com.shen.shop.model;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.persistence.*;
 
 @Table(name = "admins")
-public class AdminsDo {
+public class AdminsDo extends BaseDo{
     /**
      * 管理员ID
      */
@@ -23,6 +26,12 @@ public class AdminsDo {
      */
     @Column(name = "ADMINS_PASSWORD")
     private String adminsPassword;
+
+
+    @Getter
+    @Setter
+    @Transient
+    private String pwd;
 
     /**
      * 状态 0未激活  1：激活；2：禁用
