@@ -18,7 +18,7 @@ tag3: tag-name= v1.2
 
  index 页面的菜单栏的显示
 
-tag4: tag-name= v1.3
+tag4: tag-name= v1.4
 
 首页前台页面的前两个商品从数据库中显示
 
