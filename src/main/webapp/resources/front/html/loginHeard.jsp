@@ -46,7 +46,7 @@
 
     // 更换验证码
     $captchaImage.click(function () {
-      $(this).hide().attr('src', '/common/captchaImage.jhtml?timestamp=' + (new Date()).valueOf()).fadeIn();
+      $(this).hide().attr('src', '/shop-shen/yz/yz?timestamp=' + (new Date()).valueOf()).fadeIn();
     });
 
     $(".loginForm").keydown(function (e) {
@@ -55,7 +55,7 @@
       }
     });
 
-    $("#btn_login").click(function () {
+   $("#btn_login").click(function () {
       var username = $.trim($("#username").val());
       var password = $.trim($("#password").val());
       var captcha = $.trim($("#captcha").val());
@@ -71,10 +71,10 @@
       }
 
 
-      $("#btn_login").prop("disabled", true);
-      $.ajax({
-        url: "/common/public_key.jhtml",
-        type: "GET",
+        $("#btn_login").prop("disabled", true);
+   /*   $.ajax({
+        url: "user/login",
+        type: "Post",
         dataType: "json",
         cache: false,
         success: function (data) {
@@ -82,7 +82,7 @@
           rsaKey.setPublic(b64tohex(data.modulus), b64tohex(data.exponent));
           var enPassword = hex2b64(rsaKey.encrypt(password));
           $.ajax({
-            url: "/login/submit.jhtml",
+            url: "user/login",
             type: "POST",
             dataType: "json",
             data: {captcha: captcha, username: username, enPassword: enPassword},
@@ -104,7 +104,7 @@
             }
           });
         }
-      });
+      });*/
 
     });
 
@@ -120,17 +120,19 @@
       $("#errorCaptcha").html("");
     });
   });
+
+
   //第一次登录错误
   function showCaptchas() {
     $("#showCaptcha").empty();
     var html = "";
     html += "<input type='text' id='captcha' name='captcha' class='input_yzm' location='loginYzm' maxlength='4' autocomplete='off' />";
-    html += "<img id='captchaImage' class='loginInput_yxmPic' src='/common/captchaImage.jhtml' title='点击更换验证码' />";
+    html += "<img id='captchaImage' class='loginInput_yxmPic' src='/shop-shen/yz/yz' title='点击更换验证码' />";
     html += "<span class='prompt' id='errorCaptcha'></span>";
     $("#showCaptcha").append(html);
     // 更换验证码
     $("#captchaImage").click(function () {
-      $(this).hide().attr('src', '/common/captchaImage.jhtml?timestamp=' + (new Date()).valueOf()).fadeIn();
+      $(this).hide().attr('src', '/shop-shen/yz/yz?timestamp=' + (new Date()).valueOf()).fadeIn();
     });
   }
 

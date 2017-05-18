@@ -36,9 +36,94 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    /*前台用户注册*/
+    @RequestMapping("/register")
+    public void registerUser(HttpServletRequest request, HttpServletResponse response) throws Exception {
+        String username = request.getParameter("username");//用户名
+        String password = request.getParameter("password");//密码
+        String rePassword = request.getParameter("rePassword");//确认密码
+        String recommended = request.getParameter("recommended");//推荐人
+        if (password == "") {
+            request.getRequestDispatcher("/resources/front/html/register.jsp").forward(request, response);
+            return;
+        }
+        if (username == "") {
+            request.getRequestDispatcher("/resources/front/html/register.jsp").forward(request, response);
+            return;
+        }
+
+        if (!password.equals(rePassword)) {
+            log.info("密码输入不一致");
+            request.getRequestDispatcher("/resources/front/html/register.jsp").forward(request, response);
+
+            return;
+        }
+
+        UserDo userDo = new UserDo();
+        userDo.setUserName(username);
+        List<UserDo> user = userService.select(userDo);
+
+        if (user.size() > 0) {
+            log.info("用户名已存在");
+            request.setAttribute("message", "用户名已存在");
+            request.getRequestDispatcher("/resources/front/html/register.jsp").forward(request, response);
+
+            return;
+        }
+        UserDo userDos = new UserDo();
+        userDos.setUserName(username);
+        userDos.setPassword(password);
+
+        userDos.setRealname(recommended);
+
+       userService.registerUser(userDos);
+
+
+        request.getRequestDispatcher("/resources/front/html/login.jsp").forward(request, response);
+
+    }
+
+
+    /*用户登录*/
+    @RequestMapping("/login")
+    public void userLogin(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String name = request.getParameter("username");
+        String pwd = request.getParameter("password");
+        //获取用户输入的验证码
+        String yzm = request.getParameter("captcha").toLowerCase();
+        //获取验证码
+        String verifyCode = String.valueOf(request.getSession().getAttribute("codestr")).toLowerCase();
+
+        if (!yzm.equals(verifyCode)) {
+            log.info("登陆失败，验证码输入有误！");
+            request.setAttribute("message", "验证码输入有误，请重新输入！");
+            request.getRequestDispatcher("/resources/front/html/login.jsp").forward(request, response);
+            return;
+        }
+
+        UserDo userDo = new UserDo();
+        userDo.setUserName(name);
+        userDo.setPassword(pwd);
+        List<UserDo> user = userService.select(userDo);
+        if (user.size() == 0) {
+            log.info("登陆失败，用户名或密码错误！");
+            request.setAttribute("messages", "用户名或密码错误");
+            request.getRequestDispatcher("/resources/front/html/login.jsp").forward(request, response);
+            return;
+        }
+
+        log.info("登陆成功！");
+        request.getSession().setAttribute("user", name);
+        response.sendRedirect(request.getContextPath() + "/");
+
+
+    }
+
+    /*后台用户注册*/
     @PostMapping("/all")
     public String addUser(UserDo userDo, HttpServletRequest request) {
         if (userDo.equals(null)) {
+
             return "redirect:/resources/back/html/user_add.jsp";
         }
         String userName = request.getParameter("userName");
@@ -52,8 +137,8 @@ public class UserController {
 
         SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
-        if (password.equals(pwd)&&!password.equals("")&&!userName.equals("")) {
-            UserDo userDo1=new UserDo();
+        if (password.equals(pwd) && !password.equals("") && !userName.equals("")) {
+            UserDo userDo1 = new UserDo();
             userDo1.setUserName(userName);
             userDo1.setPassword(password);
             userDo1.setSex(Boolean.parseBoolean(sex));
@@ -97,5 +182,6 @@ public class UserController {
         map.put("listUser",userDo);
         return "user_list";
     }*/
+
 
 }

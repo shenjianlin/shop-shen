@@ -7,6 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!--------------------------------------banner开始--------------------------------------------->
+<script src="${path}/resources/front/js/time.js" type="text/javascript"></script>
 <div class="clear"></div>
 <div class="banner">
     <div class="banner-wrapper">
@@ -69,7 +70,7 @@
                 $.each(data, function (i, v) {
                     goodsHtml="";
                     goodsHtml+='<li>';
-                    goodsHtml+=' <a href="#" title="伊利金典纯牛奶 250ml*12/提" target="_blank"><img class="lazyload_img"src="${path}'+ v.picname+'" width="130" height="130"style="display: inline;"></a>';
+                    goodsHtml+=' <a href="${path}/resources/front/html/milk01.jsp" title="伊利金典纯牛奶 250ml*12/提" target="_blank"><img class="lazyload_img"src="${path}'+ v.picname+'" width="130" height="130"style="display: inline;"></a>';
                     goodsHtml+=' <p title="'+v.gname+'"><a href="#" title="伊利金典纯牛奶 250ml*12/提" target="_blank">'+ v.gname+'</a></p>';
                     goodsHtml+='<p>￥'+v.price+'<i>￥'+v.oldprice+'</i></p>';
                     goodsHtml+='</li>';

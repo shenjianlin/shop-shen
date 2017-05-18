@@ -12,5 +12,5 @@ public interface UserService extends BaseService<UserDo>{
 
     public Integer addUser(UserDo user);
 
-
+    public Integer registerUser(UserDo userDo) throws Exception;
 }

@@ -1,8 +1,10 @@
 package com.shen.shop.model;
 
+import lombok.Data;
+
 import java.util.Date;
 import javax.persistence.*;
-
+@Data
 @Table(name = "user")
 public class UserDo extends BaseDo {
     /**

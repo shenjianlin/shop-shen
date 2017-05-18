@@ -42,4 +42,14 @@ public class GoodsConteroller {
         goodsDo.setStatus(status);
         return goodsService.select(goodsDo);
     }
+
+    @RequestMapping("/milk")
+    @ResponseBody
+    public List<GoodsDo> milklist(){
+
+        GoodsDo goodsDo=new GoodsDo();
+        goodsDo.setGoodsId(1007L);
+
+        return  goodsService.select(goodsDo);
+    }
 }

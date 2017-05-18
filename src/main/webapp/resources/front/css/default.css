@@ -1,13 +1,13 @@
 ﻿/**2016 春节气氛**/
 .fangjia2017{position:absolute; right:0; width:247px; height:50px; top:-7px}
 .logo{ position:relative}
-.logif{ background:url(../images/2017/xiaoji.gif) no-repeat center top; position:absolute; left:130px; top:0px; width:300px; height:100px;}
+.logif{ background:url(../images/xiaoji.gif) no-repeat center top; position:absolute; left:130px; top:0px; width:300px; height:100px;}
 /**banner处**/
-.houzi-line{height:7px; width:100%; background:url(../images/2017/linebj.jpg); position:absolute; top:-2px; z-index:555}
+.houzi-line{height:7px; width:100%; background:url(../images/linebj.jpg); position:absolute; top:-2px; z-index:555}
 
 
 /**年货街**/
-.ji2017{ background:url(../images/2017/bj.png) no-repeat center top #E70B31; height:660px; /*margin-top:-17px;*/}
+.ji2017{ background:url(../images/bj.png) no-repeat center top #E70B31; height:660px; /*margin-top:-17px;*/}
 .jiwarp{ width:1200px; overflow:hidden; height:645px; margin:0 auto; padding-top:10px;}
 .ji-one{ height:381px; width:595px; float:right; overflow:hidden}
 .jiwarp .ji-one:first-child{ float:left !important}
@@ -43,14 +43,14 @@
 .banner-link a{width:753px; height:448px;position:relative;z-index: 11;top: 0;overflow: hidden;display: block; margin-left:210px;}
 .slide-num{bottom: 12px;height:15px;left: 0;position: absolute;text-align: center;width: 100%;z-index:22; margin-left:-23px;}
 .slide-num a{display: inline-block;height:15px; width:15px; line-height:15px;overflow: hidden; color:#000; margin:0 2px; background:url(../images/default/banner_num.png) no-repeat left top; text-align:center; text-indent:-9999em}
-.slide-num .hover {background:url(../images/default/banner_num.png) no-repeat left -18px;}
+.slide-num .hover {background:url(../images/banner_num.png) no-repeat left -18px;}
 
 /**index-banner-right-panictime**/
 .panicbuy{width:247px; height:448px; overflow:hidden; background:#fff; float:right}
 .panicbuy .panictime{ height:48px; background:#333; color:#fff; font-size:14px; padding-left:20px; line-height:48px !important;}
 .panicbuy .panictime i{ font-style:normal;}
 .panicbuy .panictime .panic-time{ width:148px; float:right; padding-top:6px;}
-.panicbuy .panictime .panic-time span{background:url(../images/default/panictime.png) no-repeat; width:34px; height:34px; color:#fff; line-height:34px; font-size:21px; display:block; text-align:center; float:left;}
+.panicbuy .panictime .panic-time span{background:url(../images/panictime.png) no-repeat; width:34px; height:34px; color:#fff; line-height:34px; font-size:21px; display:block; text-align:center; float:left;}
 .panicbuy .panictime .panic-time em{ float:left; line-height:34px; width:10px; text-align:center; font-size:21px; font-style:normal;}
 .panicbuy .panilist{ width:247px; height:400px; overflow:hidden}
 .panicbuy .panilist li{ width:227px; margin-top:9px; height:190px; line-height:20px !important; padding:0 10px;}
@@ -115,7 +115,7 @@
 .floor .title .tab-nav li:hover a{ color:#fff; }
 .floor .leftnr{width:220px; float:left; height:503px; background:#F4F4F4; overflow:hidden}
 .floor .leftnr .nr-left-yuan{ width:220px; margin:10px 6px 10px 6px; height:208px; overflow: hidden}
-.floor .leftnr .nr-left-yuan li{ width:55px; height:55px; overflow:hidden; float:left; background-image:url(../images/default/sub_menu.png); background-repeat:no-repeat;text-align:center; line-height:55px; margin:7px;}
+.floor .leftnr .nr-left-yuan li{ width:55px; height:55px; overflow:hidden; float:left; background-image:url(../images/sub_menu.png); background-repeat:no-repeat;text-align:center; line-height:55px; margin:7px;}
 .floor .leftnr .nr-left-yuan li a{ font-size:12px; display:block; color:#000;}
 .floor .leftnr .nr-left-yuan li a:hover{color:#fff; text-decoration:none}
 .gg220x275{ width:220px; height:275px; overflow:hidden}
@@ -133,7 +133,7 @@
 .louf-pro-list dd .pro-sale{ top:50px;font-size:16px; height:18px;line-height:18px; color:#c00; z-index:333}
 .louf-pro-list dd .pro-img{bottom:20px; width:175px; height:175px;}
 .louf-pro-list dd.height220 .pro-title{top:15px;}
-.louf-pro-list dd.height220 .pro-sale{ top:40px; background:url(../images/default/sale_bj.png) no-repeat left top}
+.louf-pro-list dd.height220 .pro-sale{ top:40px; background:url(../images/sale_bj.png) no-repeat left top}
 .louf-pro-list dd.height220 .pro-img{ left:18px;bottom:0px;width:160px; height:160px; overflow:hidden; text-align:center}
 .louf-pro-list dd i:hover{filter:alpha(opacity=85);	-moz-opacity:0.85;	-khtml-opacity: 0.85;opacity: 0.85; transition:all .2s ease;}
 .louf-pro-list dd:hover p a{ color:#d90000}

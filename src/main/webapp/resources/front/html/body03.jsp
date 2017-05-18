@@ -9,82 +9,36 @@
             <div class="in_four-pro" id="promotionProduct">
                 <dl>
                     <c:forEach items="${goods}" var="i">
-                        <dd><a target="_blank" href="#"><img
+                        <dd><a target="_blank" href="${path}/resources/front/html/milk01.jsp"><img
                                 class="lazyload_img"
                                 src="${path}/${i.picname}"
-                                data-original="#"
                                 width="175" height="175" style="display: inline;"></a>
 
-                            <p><a href="#">${i.gname}</a></p>
+                            <p><a href="${path}/resources/front/html/milk01.jsp">${i.gname}</a></p>
 
                             <p>¥${i.price}<i>¥${i.oldprice}</i></p></dd>
                     </c:forEach>
-                    <%--<dd><a target="_blank" href="http://www.shengyuan.cn/products/content/2110600.html?t=170414"><img
-                            class="lazyload_img"
-                            src="${path}/resources/front/images/9816e784-9aa8-453e-a64a-1ed955c323c1-medium.jpg"
-                            data-original="http://www.shengyuan.cn/upload/image/201410/9816e784-9aa8-453e-a64a-1ed955c323c1-medium.jpg"
-                            width="175" height="175" style="display: inline;"></a>
-
-                        <p><a href="http://www.shengyuan.cn/products/content/2110600.html?t=170414">两面针中药护龈果橙...</a></p>
-
-                        <p>¥7.80<i>¥13.80</i></p></dd>
-                    <dd><a target="_blank" href="http://www.shengyuan.cn/products/content/2116936.html?t=001500"><img
-                            class="lazyload_img"
-                            src="${path}/resources/front/images/b47f7ced-5c7e-49f4-96a4-7561bb210372-medium.jpg"
-                            data-original="http://www.shengyuan.cn/upload/image/201601/b47f7ced-5c7e-49f4-96a4-7561bb210372-medium.jpg"
-                            width="175" height="175" style="display: inline;"></a>
-
-                        <p><a href="http://www.shengyuan.cn/products/content/2116936.html?t=001500">利乐包旺仔牛奶复原...</a></p>
-
-                        <p>¥39.00<i>¥45.00</i></p></dd>
-                    <dd><a target="_blank" href="http://www.shengyuan.cn/products/content/2109194.html?t=152622"><img
-                            class="lazyload_img"
-                            src="${path}/resources/front/images/349c10dd-868c-4d95-886e-4d4b8bbb1964-medium.jpg"
-                            data-original="http://www.shengyuan.cn/upload/image/201410/349c10dd-868c-4d95-886e-4d4b8bbb1964-medium.jpg"
-                            width="175" height="175" style="display: inline;"></a>
-
-                        <p><a href="http://www.shengyuan.cn/products/content/2109194.html?t=152622">心相印柔影170克...</a></p>
-
-                        <p>¥21.90<i>¥27.50</i></p></dd>
-                    <dd><a target="_blank" href="http://www.shengyuan.cn/products/content/2120421.html?t=145141"><img
-                            class="lazyload_img"
-                            src="${path}/resources/front/images/f98f4710-6631-4e55-a79b-ce3751b0d500-medium.jpg"
-                            data-original="http://www.shengyuan.cn/upload/image/201703/f98f4710-6631-4e55-a79b-ce3751b0d500-medium.jpg"
-                            width="175" height="175" style="display: inline;"></a>
-
-                        <p><a href="http://www.shengyuan.cn/products/content/2120421.html?t=145141">心相印红悦系列13...</a></p>
-
-                        <p>¥21.90<i>¥27.50</i></p></dd>
-                    <dd><a target="_blank" href="http://www.shengyuan.cn/products/content/2104289.html?t=104828"><img
-                            class="lazyload_img"
-                            src="${path}/resources/front/images/1f9872e5-d011-4de5-9f1f-9c6a9f90b199-medium.jpg"
-                            data-original="http://www.shengyuan.cn/upload/image/201409/1f9872e5-d011-4de5-9f1f-9c6a9f90b199-medium.jpg"
-                            width="175" height="175" style="display: inline;"></a>
-
-                        <p><a href="http://www.shengyuan.cn/products/content/2104289.html?t=104828">唐人神水晶香肠20...</a></p>
-
-                        <p>¥8.50<i>¥13.80</i></p></dd>--%>
                 </dl>
             </div>
         </div>
         <!----------随机促销商品结束------------->
         <!----------首页文章------------->
         <div class="right-list">
-            <h2><i><a href="http://www.shengyuan.cn/article/list/1.jhtml" target="_blank">更多</a></i>闪购新闻</h2>
+            <h2><i><a href="#" target="_blank">更多</a></i>闪购新闻</h2>
             <ul>
-                <li><a href="http://www.shengyuan.cn/articles/content/201705/289/1.html?t=174413" target="_blank"><b>[活动促销]</b>送礼，就选特别的</a>
+                <li><a href="#" target="_blank"><b>[活动促销]</b>送礼，就选特别的</a>
                 </li>
-                <li><a href="http://www.shengyuan.cn/articles/content/201705/288/1.html?t=161550" target="_blank"><b>[活动促销]</b>盘中餐，皆辛苦！</a>
+                <li><a href="#" target="_blank"><b>[活动促销]</b>盘中餐，皆辛苦！</a>
                 </li>
-                <li><a href="http://www.shengyuan.cn/articles/content/201704/287/1.html?t=092900" target="_blank"><b>[活动促销]</b>“纸”有你，柔滑舒心</a>
+                <li><a href="#" target="_blank"><b>[活动促销]</b>“纸”有你，柔滑舒心</a>
                 </li>
-                <li><a href="http://www.shengyuan.cn/articles/content/201704/286/1.html?t=145654" target="_blank"><b>[活动促销]</b>春游野餐一起来</a>
+                <li><a href="#" target="_blank"><b>[活动促销]</b>春游野餐一起来</a>
                 </li>
-                <li><a href="http://www.shengyuan.cn/articles/content/201704/285/1.html?t=092637" target="_blank"><b>[活动促销]</b>嗨约！烧烤。撸串好食材</a>
+                <li><a href="#" target="_blank"><b>[活动促销]</b>嗨约！烧烤。撸串好食材</a>
                 </li>
-                <li><a href="http://www.shengyuan.cn/articles/content/201704/284/1.html?t=170945" target="_blank"><b>[活动促销]</b>初心春见，食在当季</a>
+                <li><a href="#" target="_blank"><b>[活动促销]</b>初心春见，食在当季</a>
                 </li>
-                <li><a href="http://www.shengyuan.cn/articles/content/201704/283/1.html?t=085031" target="_blank"><b>[活动促销]</b>深洁齿缝清新每一天</a>
+                <li><a href="#" target="_blank"><b>[活动促销]</b>深洁齿缝清新每一天</a>
                 </li>
             </ul>
         </div>
@@ -96,15 +50,12 @@
         <ul>
             <li class="height400px"><a href="${path}/resources/front/html/milk.jsp" target="_blank"><img
                     class="lazyload_img" src="${path}/resources/front/images/5409c7fc-eabb-4400-8aba-e59ab6ef6c4d.jpg"
-                    data-original="http://www.shengyuan.cn/upload/image/201511/5409c7fc-eabb-4400-8aba-e59ab6ef6c4d.jpg"
                     style="display: inline;"></a></li>
             <li class="width400px"><a href="http://www.shengyuan.cn/sub/n846FjPaYYe.jhtml" target="_blank"><img
                     class="lazyload_img" src="${path}/resources/front/images/ae3a989f-9f6c-44e1-8a76-a2ec45d7406c.jpg"
-                    data-original="http://www.shengyuan.cn/upload/image/201512/ae3a989f-9f6c-44e1-8a76-a2ec45d7406c.jpg"
                     style="display: inline;"></a></li>
             <li class=""><a href="${path}/resources/front/html/dish.jsp" target="_blank"><img class="lazyload_img"
                                                                                               src="${path}/resources/front/images/3f99c40f-dd76-4968-a283-617ccc7132af.jpg"
-                                                                                              data-original="http://www.shengyuan.cn/upload/image/201602/3f99c40f-dd76-4968-a283-617ccc7132af.jpg"
                                                                                               style="display: inline;"></a>
             </li>
             <li class=""><a href="http://www.shengyuan.cn/sub/TcVMjImuLY6.jhtml" target="_blank"><img
@@ -982,7 +933,9 @@
                 <li><a href="#"></a></li>
                 <li><a href="#"></a></li>
                 <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
+                <li>
+
+                    <a href="#"></a></li>
             </ul>
         </div>
     </div>

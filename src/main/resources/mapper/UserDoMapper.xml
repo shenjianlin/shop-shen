@@ -24,4 +24,14 @@
   <insert id="addUser" parameterType="java.util.List">
     INSERT INTO USER(USER_NAME,PASSWORD,SEX,ADDERSS,EMAIL,STATUS,REALNAME) VALUES(?,?,?,?,?,?,?)
   </insert>
+
+  <insert id="registerUser" parameterType="UserDo">
+    INSERT INTO USER (
+    USER_NAME,
+    PASSWORD,
+    REALNAME
+  )
+  VALUES
+    (#{userName},#{password},#{realname});
+  </insert>
 </mapper>
